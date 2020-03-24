@@ -62,7 +62,7 @@
                 var str = '';
                 var j = 0
                 for (j = 0; j < colNames.length-1; j++)
-                    str += colNames[j] + ',';
+                    str += colNames[j] + ';';
                 str += colNames[j];
                 str += '\r\n';
 
@@ -73,7 +73,7 @@
                     if (! n)
                         continue;
                     for (j = 0; j < colNames.length-1; j++)
-                        line += objJSON[i][colNames[j]] + ',';
+                        line += objJSON[i][colNames[j]] + ';';
                     line += objJSON[i][colNames[j]] + '\r\n';
                     str += line;
                 }
@@ -99,7 +99,7 @@
                 {
                     var content = convertToCSV(res);
                     //console.log(content);
-                    var exportedFilenmae = 'Srch_results.csv';
+                    var exportedFilenmae = 'Search_results.csv';
                     var blob = new Blob([content], { type: 'text/csv;charset=utf-8;' });
                     if (navigator.msSaveBlob) // IE 10+
                         navigator.msSaveBlob(blob, exportedFilenmae);
@@ -127,14 +127,13 @@
                 // EXTRACT VALUE FOR HTML HEADER.
                 var objJSON = dyeData.DYES;
 
-                //objJSON.sort(GetSortOrder("PEAK_ABSORPTION_SOLUTION"));
-
                 var colNames = [];
-                for (var i = 0; i < objJSON.length; i++) {
-                    for (var key in objJSON[i]) {
-                        if (colNames.indexOf(key) === -1) {
+                for (var i = 0; i < objJSON.length; i++) 
+                {
+                    for (var key in objJSON[i]) 
+                    {
+                        if (colNames.indexOf(key) === -1) 
                             colNames.push(key);
-                        }
                     }
                 }
 
