@@ -104,58 +104,6 @@ function addClassName(_13, _14, _15) {
     }
 }
 
-
-function queryDOI(srcDOI, objJSON) {
-    result = [];
-
-    var colNames = [];
-    for (var i = 0; i < objJSON.length; i++) {
-        for (var key in objJSON[i]) {
-            if (colNames.indexOf(key) === -1) {
-                colNames.push(key);
-            }
-        }
-    }
-
-    for (var i = 0; i < objJSON.length; i++) {
-        for (var j = 0; j < colNames.length; j++) {
-            if (colNames[j] === 'DOI') {
-                if (objJSON[i][colNames[j]] === srcDOI)
-                    result.push(i);
-            }
-        }
-    }
-    return result;
-}
-
-function querySolvent(solv, lambda_val, objJSON) {
-    result = [];
-    var colNames = [];
-    for (var i = 0; i < objJSON.length; i++) {
-        for (var key in objJSON[i]) {
-            if (colNames.indexOf(key) === -1) {
-                colNames.push(key);
-            }
-        }
-    }
-
-    for (var i = 0; i < objJSON.length; i++) {
-        for (var j = 0; j < colNames.length; j++) {
-            if (colNames[j] === 'SOLVENT') {
-                if (objJSON[i][colNames[j]].includes(solv))
-                {
-                    if (objJSON[i].PEAK_ABSORPTION_SOLUTION >= lambda_val) {
-                        result.push(i);
-                    }
-
-                }
-            }
-        }
-    }
-
-    return result;
-}
-
 function checkDOI(testKey) {
     var DOIpattern = new RegExp(/\b(10[.][0-9]{4,}(?:[.][0-9]+)*)\b/g);
     var found = DOIpattern.test(testKey);
