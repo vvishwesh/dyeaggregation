@@ -1,1 +1,681 @@
-<h1>HELLO</h1>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Dye Aggregation on Metal Oxides</title>
+        <link rel="stylesheet" type="text/css" href="scripts/view.css" media="all">
+        <link rel="stylesheet" type="text/css" href="scripts/table.css" media="all">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript" language="javascript" src="jsme/jsme.nocache.js"></script>
+        <script type="text/javascript" src="scripts/view.js"></script>
+        <script src="https://unpkg.com/smiles-drawer@1.2.0/dist/smiles-drawer.min.js"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+            MathJax.Hub.Config({
+                tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] }
+            });
+        </script>
+        <script src="kekule/kekule.js?module=io"></script>
+        <script src="scripts/molViewer.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cheminfo/openchemlib-js/dist/openchemlib-minimal.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.js"></script>
+
+        <script type="text/javascript">
+
+
+            var dyeData = "";
+            let options = { width: 200, height: 200 };
+            var hdr_lambda_soln = "$$\\lambda_{max}^{soln}$$";
+            var hdr_lambda_mox = "$$\\lambda_{max}^{oxide}$$";
+            var debug = false;
+
+            function jsmeOnLoad()
+            {
+                jsmeApplet = new JSApplet.JSME("jsme_container", "380px", "340px", {"options" : "oldlook, star"});
+                document.JME = jsmeApplet;
+            }
+
+
+
+            function convertToCSV(res)
+            {
+                if (debug)
+                    console.log("TO CSV: " + res.length + " records.");
+
+                var objJSON = dyeData.DYES;
+
+                var colNames = [];
+                for (var i = 0; i < objJSON.length; i++)
+                {
+                    for (var key in objJSON[i])
+                    {
+                        if (colNames.indexOf(key) === -1)
+                            colNames.push(key);
+                    }
+                }
+
+                var str = '';
+                var j = 0
+                for (j = 0; j < colNames.length-1; j++)
+                    str += colNames[j] + ',';
+                str += colNames[j];
+                str += '\r\n';
+
+                for (var i = 0; i < objJSON.length; i++)
+                {
+                    var line = '';
+                    var n = res.includes(i);
+                    if (! n)
+                        continue;
+                    for (j = 0; j < colNames.length-1; j++)
+                        line += objJSON[i][colNames[j]] + ',';
+                    line += objJSON[i][colNames[j]] + '\r\n';
+                    str += line;
+                }
+                return str;
+            }
+
+            function addExportButton(res)
+            {
+                //Create an input type dynamically.
+                var btn = document.createElement("button");
+                btn.setAttribute('id', 'btnCSVExport');
+                btn.innerHTML = "Export to CSV";
+                btn.setAttribute('class', 'gen_btn');
+                btn.name = 'btnCSVExport';
+
+                var log = document.getElementById('srch_status');
+                var btncontainer = document.createElement("div");
+                btncontainer.style.padding = "10px 0px 10px 0px";
+                btncontainer.appendChild(btn);
+                log.appendChild(btncontainer);
+
+                btn.addEventListener('click', function()
+                {
+                    var content = convertToCSV(res);
+                    //console.log(content);
+                    var exportedFilenmae = 'Srch_results.csv';
+                    var blob = new Blob([content], { type: 'text/csv;charset=utf-8;' });
+                    if (navigator.msSaveBlob) // IE 10+
+                        navigator.msSaveBlob(blob, exportedFilenmae);
+                    else
+                    {
+                        var link = document.createElement("a");
+                        if (link.download !== undefined)
+                        { // feature detection
+                            // Browsers that support HTML5 download attribute
+                            var url = URL.createObjectURL(blob);
+                            link.setAttribute("href", url);
+                            link.setAttribute("download", exportedFilenmae);
+                            link.style.visibility = 'hidden';
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        }
+                    }
+                });
+            }
+
+
+
+            /**
+              * Check for the various File API support.
+              */
+            function checkFileAPI()
+            {
+                if (window.File && window.FileReader && window.FileList && window.Blob) {
+                        return true;
+                } else {
+                    err = 'The File APIs are not fully supported in this browser.';
+                    var log = document.getElementById('srch_status');
+                    log.innerHTML = err;
+                    log.style.visibility = 'visible';
+                    console.log(err);
+                    return false;
+                }
+            }
+
+
+
+            function handleFileSelect()
+            {
+                var input = document.getElementById('fileinput');
+                if (!input)
+                {
+                    var log = document.getElementById('srch_status');
+                    err = "Couldn't find the fileinput element.";
+                    log.innerHTML = err;
+                    log.style.visibility = 'visible';
+                    console.log(err);
+                    return;
+                }
+                file = input.files[0];
+                var fileReader = new FileReader();
+                fileReader.onload = receivedText;
+                fileReader.readAsText(file, "UTF-8");
+            }
+
+
+            function receivedText(evt)
+            {
+                let lines = evt.target.result;
+                dyeData = JSON.parse(lines);
+            }
+
+
+            function CreateTableFromJSON(rowsToShow, numrec)
+            {
+                // EXTRACT VALUE FOR HTML HEADER.
+                var objJSON = dyeData.DYES;
+
+                //objJSON.sort(GetSortOrder("PEAK_ABSORPTION_SOLUTION"));
+
+                var colNames = [];
+                for (var i = 0; i < objJSON.length; i++) {
+                    for (var key in objJSON[i]) {
+                        if (colNames.indexOf(key) === -1) {
+                            colNames.push(key);
+                        }
+                    }
+                }
+
+                // CREATE DYNAMIC TABLE.
+                var table = document.createElement("table");
+                table.setAttribute('id', 'tblResults');
+
+                var tr = table.insertRow(-1);                   // TABLE ROW.
+
+                for (var i = 0; i < colNames.length; i++)
+                {
+                    if (colNames[i] === 'DONOR')
+                        continue;
+                    if (colNames[i] === 'ANCHORING_GROUP')
+                        continue;
+
+                    var th = document.createElement("th"); // TABLE HEADER.
+                    if (colNames[i] === 'PEAK_ABSORPTION_SOLUTION')
+                    {
+                        th.innerHTML = hdr_lambda_soln;
+                        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                    }
+                    else if (colNames[i] === 'PEAK_ABSORPTION_METAL_OXIDE')
+                    {
+                        th.innerHTML = hdr_lambda_mox;
+                        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                    }
+                    else
+                    {
+                        th.innerHTML = colNames[i];
+                    }
+                    tr.appendChild(th);
+                }
+
+                var cntRecords = 0;
+
+                // Add JSON data to the table as rows.
+                for (var i = 0; i < objJSON.length; i++)
+                {
+                    var n = rowsToShow.includes(i);
+                    if (! n)
+                        continue;
+                    tr = table.insertRow(-1);
+
+
+                    for (var j = 0; j < colNames.length; j++)
+                    {
+                        if (colNames[j] === 'DONOR')
+                            continue;
+                        if (colNames[j] === 'ANCHORING_GROUP')
+                            continue;
+
+                        var tabCell = tr.insertCell(-1);
+
+                        if (colNames[j] === 'AGGREGATION')
+                        {
+                            if (objJSON[i][colNames[j]] === 'UNCHANGED')
+                            {
+                                tabCell.style.color = "4D4E4F";
+                            }
+                            else if (objJSON[i][colNames[j]] === 'HYPSOCHROMIC')
+                            {
+                                tabCell.style.color = "blue";
+                            }
+                            else
+                            {
+                                tabCell.style.color = "#ff0000";
+                            }
+                        }
+
+                        if (colNames[j] === 'DOI')
+                        {
+                            var text = 'http://doi.org/';
+                            if (checkDOI(objJSON[i][colNames[j]]))
+                            {
+                                text = text.concat(objJSON[i][colNames[j]]);
+                            }
+                            else
+                            {
+                                text = objJSON[i][colNames[j]];
+                            }
+                            // Create anchor element.
+                            var a = document.createElement('a');
+                            // Create the text node for anchor element.
+                            var link = document.createTextNode(objJSON[i][colNames[j]]);
+                            // Append the text node to anchor element.
+                            a.appendChild(link);
+                            // Set the title.
+                            a.title = objJSON[i][colNames[j]];
+                            // Set the href property.
+                            a.href = text;
+                            // Append the anchor element to the body.
+                            tabCell.appendChild(a);
+                        }
+                        else if (colNames[j] === 'STRUCTURE')
+                        {
+                            var cnv = document.createElement('canvas');
+                            cnv.setAttribute('data-smiles', objJSON[i][colNames[j]]);
+                            tabCell.appendChild(cnv);
+                        }
+                        else
+                        {
+                            tabCell.innerHTML = objJSON[i][colNames[j]];
+                        }
+                    }
+
+                    cntRecords = cntRecords + 1;
+
+                    //console.log(cntRecords + " " + numrec);
+
+                    if (cntRecords >= numrec)
+                        break;
+                }
+
+                // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+                var divContainer = document.getElementById("srch_results");
+                divContainer.innerHTML = "";
+                divContainer.appendChild(table);
+            }
+
+
+
+            function queryLambda(lambda_val, str_solvent, str_donor, str_doi, str_anchor, str_moxide)
+            {
+                result = [];
+                var objJSON = dyeData.DYES;
+
+                let chkr = 0;
+                if (str_doi)
+                {
+                    if (! checkDOI(str_doi))
+                    {
+                        result = "Invalid DOI";
+                        return;
+                    }
+                    chkr = chkr + 1;
+                }
+                if (str_solvent)
+                    chkr = chkr + 1;
+                if (str_donor)
+                    chkr = chkr + 1;
+                if (str_anchor)
+                    chkr = chkr + 1;
+                if (str_moxide)
+                    chkr = chkr + 1;
+
+                let ctr = 0;
+                for (var i = 0; i < objJSON.length; i++)
+                {
+                    ctr = 0;
+                    if (Number(objJSON[i].PEAK_ABSORPTION_SOLUTION) >= lambda_val)
+                    {
+                        if (str_doi)
+                        {
+                            if (objJSON[i].DOI.includes(str_doi))
+                                ctr = ctr + 1;
+                        }
+                        if (str_solvent)
+                        {
+                            if (objJSON[i].SOLVENT.includes(str_solvent))
+                                ctr = ctr + 1;
+                        }
+                        if (str_donor)
+                        {
+                            if (objJSON[i].DONOR.includes(str_donor))
+                                ctr = ctr + 1;
+                        }
+                        if (str_anchor)
+                        {
+                            if (objJSON[i].ANCHORING_GROUP.includes(str_anchor))
+                                ctr = ctr + 1;
+                        }
+                        if (str_moxide)
+                        {
+                            if (objJSON[i].METAL_OXIDE === str_moxide)
+                                ctr = ctr + 1;
+                        }
+                    }
+                    if (ctr == chkr)
+                        result.push(i);
+                }
+                return result;
+            }
+
+            function smiles2Mol(str_smi)
+            {
+                const Molecule = new MolViewer.Molecule();
+                var xmol = Molecule.get2DFromSMILE(str_smi);
+                return xmol.molFile;
+            }
+
+            function substructure_search(str_srch_sub, prev_res)
+            {
+                var subst_result = [];
+                var objJSON = dyeData.DYES;
+                var xmol = smiles2Mol(str_srch_sub);
+                if (debug)
+                    console.log(xmol);
+                var qmol = Kekule.IO.loadFormatData(xmol, "mol");
+                if (debug)
+                    console.log(qmol);
+
+                if (qmol)
+                {
+                    var ops = {};
+                    var level;
+                    var CL = Kekule.StructureComparationLevel;
+                    var levelValue = $('listCompareLevel').value;
+                    if (levelValue === 'Skeletal')
+                        level = CL.SKELETAL;
+                    else if (levelValue === 'Constitution')
+                        level = CL.CONSTITUTION;
+                    else if (levelValue === 'Configuration')
+                        level = CL.CONFIGURATION;
+                    else
+                        level = CL.EXACT;
+                    ops.level = level;
+                    ops.compareCharge = false;
+                    ops.compareMass = false;
+                    ops.exactMatch = $('checkboxExactly').checked;
+
+
+                    var idx;
+
+                    for (var i = 0; i < prev_res.length; i++)
+                    {
+                        idx = prev_res[i];
+
+                        var smi = objJSON[idx].STRUCTURE;
+
+                        var cmol = Kekule.IO.loadFormatData(smiles2Mol(smi), "mol");
+
+                        if (cmol)
+                        {
+                            var searchResult;
+
+                            if (ops.exactMatch)
+                                searchResult = cmol.isSameStructureWith(qmol, ops);
+                            else
+                                searchResult = cmol.search(qmol, ops)  || [];
+
+                            if (searchResult.length > 0)
+                                subst_result.push(idx);
+                        }
+                    }
+                }
+                return subst_result;
+            }
+
+
+            function executeSearch()
+            {
+                // form element
+                var doi = document.getElementById("doi").value;
+                var sel = document.getElementById("selDonor");
+                var donor = sel.options[sel.selectedIndex].value;
+                sel = document.getElementById("selAnchor");
+                var anchor = sel.options[sel.selectedIndex].value;
+                sel = document.getElementById("selSolvent");
+                var solvent = sel.options[sel.selectedIndex].value;
+                sel = document.getElementById("selMoxide");
+                var moxide = sel.options[sel.selectedIndex].value;
+                var lambda = parseFloat(document.getElementById("lambdarange").value);
+                var log = document.getElementById('srch_status');
+                var str_srch_sub = document.JME.smiles();
+                sel = document.getElementById("selNumRecords");
+                var numrec = sel.options[sel.selectedIndex].value;
+
+
+                if (debug) {
+                    console.log(lambda);
+                    console.log(solvent);
+                    console.log(donor);
+                    console.log(doi);
+                    console.log(anchor);
+                    console.log(moxide);
+                    console.log(str_srch_sub);
+                    console.log(numrec);
+                }
+
+
+                var res = queryLambda(lambda, solvent, donor, doi, anchor, moxide);
+
+                if (str_srch_sub)
+                {
+                    if (debug)
+                        console.log("FOUND RECORDS: " + res.length);
+                    var new_res = substructure_search(str_srch_sub, res);
+                    if (debug)
+                        console.log("SUBSTRUCTURE YIELDS: " + new_res);
+                    res = new_res;
+                }
+
+                if (typeof res === "string")
+                {
+                    log.innerHTML = res;
+                    log.style.visibility = 'visible';
+                    console.log(res);
+                    return;
+                }
+                if (res.length == 0)  
+                {
+                    err = "No records retrieved.";
+                    log.innerHTML = err;
+                    log.style.visibility = 'visible';
+                    console.log(err);
+                    return;
+                }
+                else
+                {
+                    err = new String(res.length).concat(" records retrieved.");
+                    log.innerHTML = err;
+                    log.style.visibility = 'visible';
+                    console.log(err);
+                    CreateTableFromJSON(res, numrec);
+                    SmilesDrawer.apply(options);
+                    addExportButton(res);
+                }
+            }
+
+            function restore()
+            {
+                document.getElementById("frmDye").reset();
+                var divContainer = document.getElementById("srch_results");
+                divContainer.innerHTML = "";
+                var divContainer2 = document.getElementById("srch_status");
+                divContainer2.innerHTML = "";
+                document.JME.reset();
+            }
+        </script>
+
+    </head>
+    <body id="main_body" onload="checkFileAPI()">
+
+        <div id="form_container">
+
+            <h1><a>Search the Dye Aggregation in DSSC Database</a></h1>
+
+            <form id="frmLoad" class="appnitro">
+                <div class="form_description">
+                </div>
+                <ul>
+                    <li id="li_0" >
+                        <input type="file" id="fileinput"/>
+                        <input type='button' id='btnLoad' value='Load' onclick='handleFileSelect();'>
+                    </li>
+                </ul>
+            </form>
+
+            <form id="frmDye" class="appnitro">
+                <div class="form_description">
+                    <p>Search the database for dyes satisfying criteria</p>
+                </div>
+
+
+                <ul>
+                    <li id="li_0">
+                        <div id="jsme_container"></div>
+                    </li>
+                    <li id="li_1" >
+                        <label class="description" for="doi">Enter DOI</label>
+                        <div>
+                            <input id="doi" name="doi" class="element text medium" type="text" maxlength="255" value=""/>
+                        </div>
+                        <p class="guidelines" id="guide_1"><small>Enter a valid Digital Object Identifier</small></p>
+                    </li>
+                    <li id="li_2" >
+                        <label class="description" for="selDonor">Select Donor Class </label>
+                        <div>
+                            <select class="element select medium" id="selDonor" name="selDonor">
+                                <option value="" selected="selected"></option>
+                                <option value="phenothiazine" >Phenothiazine</option>
+                                <option value="phenoxazine" >Phenoxazine</option>
+                                <option value="triphenylamine" >Triphenylamine</option>
+                                <option value="carbazole" >Carbazole</option>
+                                <option value="indoline" >Indoline</option>
+                                <option value="bodipy" >BODIPY</option>
+                                <option value="squaraine" >Squaraine</option>
+                                <option value="ruthenium" >Ruthenium</option>
+                                <option value="porphyrin" >Porphyrin</option>
+                                <option value="imidazole" >Imidazole</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li id="li_3" >
+                        <label class="description" for="selAnchor">Select Anchoring Group </label>
+                        <div>
+                            <select class="element select medium" id="selAnchor" name="selAnchor">
+                                <option value="" selected="selected"></option>
+                                <option value="carboxylic" >Carboxylic Acid</option>
+                                <option value="cyanoacrylic" >Cyanoacrylic Acid</option>
+                                <option value="hydantoin" >Hydantoin</option>
+                                <option value="rhodanine" >Rhodanine</option>
+                                <option value="benzoic" >Benzoic</option>
+                                <option value="pyridine" >Pyridine</option>
+                                <option value="catechol" >Catechol</option>
+                                <option value="nitro" >Nitro</option>
+                                <option value="malononitrile" >Malononitrile</option>
+                                <option value="tetrazole" >Tetrazole</option>
+                                <option value="sulfonic" >Sulphonic</option>
+                                <option value="barbituric" >Barbituric</option>
+                                <option value="misc" >Others</option>
+                            </select>
+                       </div>
+                    </li>
+                    <li id="li_4" >
+                        <label class="description" for="selSolvent">Select Solvent</label>
+                        <div>
+                            <select class="element select medium" id="selSolvent" name="selSolvent">
+                                <option value="" selected="selected"></option>
+                                <optgroup label="Pure Solvent">
+                                    <option value="ethanol" >Ethanol</option>
+                                    <option value="methanol" >Methanol</option>
+                                    <option value="acetonitrile" >Acetonitrile</option>
+                                    <option value="chloroform" >Chloroform</option>
+                                    <option value="toluene" >Toluene</option>
+                                    <option value="1,2-dichlorobenzene" >1,2-Dichlorobenzene</option>
+                                    <option value="1,2-dichloroethane" >1,2-Dichloroethane</option>
+                                    <option value="dimethyl sulfoxide" >DMSO</option>
+                                    <option value="ethyl acetate" >Ethyl Acetate</option>
+                                    <option value="tetrahydrofuran" >THF</option>
+                                    <option value="hexane" >Hexane</option>
+                                    <option value="chlorobenzene" >chlorobenzene</option>
+                                    <option value="acetic acid" >Acetic Acid</option>
+                                    <option value="dimethylformamide" >DMF</option>
+                                    <option value="acetone" >Acetone</option>
+                                    <option value="1,4-dioxane" >1,4-dioxane</option>
+                                </optgroup>
+                                <optgroup label="Solvent Mixture">
+                                    <option value="dichloromethane/ethanol" >DCM:EtOH</option>
+                                    <option value="dimethyl sulfoxide/acetonitrile" >DMSO:MeCN</option>
+                                    <option value="chloroform/methanol" >CHCl3:MeOH</option>
+                                    <option value="dimethyl sulfoxide/ethanol" >DMSO:EtOH</option>
+                                    <option value="dimethylformamide/methanol" >DMSO:MeOH</option>
+                                    <option value="dichloromethane/tetrahydrofuran" >DCM:THF</option>
+                                    <option value="acetic acid/dichloromethane" >CH3COOH/DCM</option>
+                                    <option value="acetonitrile/tert-butanol" >MeCN/t-BuOH</option>
+                                    <option value="ethyl acetate/methanol" >EtOAc/MeOH</option>
+                                    <option value="chloroform/ethanol" >CHCl3:EtOH</option>
+                                    <option value="toluene/tetrahydrofuran" >Toluene:THF</option>
+                                    <option value="ethanol/tetrahydrofuran" >EtOH:THF</option>
+                                    <option value="ethanol/acetonitrile" >EtOH:MeCN</option>
+                                    <option value="dichloromethane/methanol" >DCM:MeOH</option>
+                                    <option value="dichloromethane/dimethylformamide" >DCM:DMF</option>
+                                    <option value="dichloromethane/acetonitrile" >DCM:MeCN</option>
+                                </optgroup>
+                            </select>
+                       </div>
+                    </li>
+                    <li id="li_5" >
+                        <label class="description" for="selMoxide">Select Metal Oxide </label>
+                        <div>
+                            <select class="element select medium" id="selMoxide" name="selMoxide">
+                                <option value="" selected="selected"></option>
+                                <option value="TiO2" >Titanium dioxide</option>
+                                <option value="ZnO" >Zinc oxide</option>
+                                <option value="NiO" >Nickel oxide</option>
+                                <option value="Al2O3" >Aluminium oxide</option>
+                            </select>
+                       </div>
+                    </li>
+                    <li id="li_6" >
+                        <div class="slidecontainer">
+                            <label class="description" for="lambdarange">&#955; in Solution (between 350 and 750 nm)</label>
+                            <input class="slider" type="range" id="lambdarange" name="lambdarange" value="400" min="350" max="750" step="25" oninput="lambdarange_disp.value = lambdarange.value"/>
+                            <output  id="lambdarange_disp"></output>
+                            <p class="guidelines" id="guide_2"><small>Search for dyes with absorption maxima in solution greater than value</small></p>
+                        </div>
+                    </li>
+                    <li id="li_7">
+                        <label class="description" for="listCompareLevel">Comparison Level </label>
+                        <select id="listCompareLevel" class="element select medium">
+                            <option value="Skeletal">Skeletal</option>
+                            <option value="Constitution" selected="selected">Constitution</option>
+                        </select>&nbsp; &nbsp; &nbsp;
+                        <input type="checkbox" id="checkboxExactly" /><label for="checkboxExactly">Exact structure</label>
+                    </li>
+                    <li id="li_8">
+                        <label class="description" for="selNumRecords">Select Number of records to show </label>
+                        <div>
+                            <select class="element select medium" id="selNumRecords" name="selNumRecords">
+                                <option value="10" >10</option>
+                                <option value="25" selected="selected">25</option>
+                                <option value="50" >50</option>
+                                <option value="100" >100</option>
+                            </select>
+                       </div>
+                    </li>
+                    <li class="buttons">
+                        <input class="button_text" type='button' id='btnExecute' value='Search' onclick='executeSearch();'>
+                        <input class="button_text" type='button' id='btnReset' value='Reset' onclick='restore();'>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+
+
+
+        <div id="srch_status" style="padding-top:10px;padding-bottom:10px"></div>
+
+        <div id="srch_results" ></div>
+    </body>
+</html>
