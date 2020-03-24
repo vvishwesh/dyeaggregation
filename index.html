@@ -20,8 +20,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.js"></script>
 
         <script type="text/javascript">
-
-
             var dyeData = "";
             let options = { width: 200, height: 200 };
             var hdr_lambda_soln = "$$\\lambda_{max}^{soln}$$";
@@ -32,6 +30,14 @@
             {
                 jsmeApplet = new JSApplet.JSME("jsme_container", "380px", "340px", {"options" : "oldlook, star"});
                 document.JME = jsmeApplet;
+            }
+
+            function loadJSON()
+            {
+                var request = new XMLHttpRequest();
+                request.open("GET", "data/dyeinfo.json", false);
+                request.send(null);
+                dyeData = JSON.parse(request.responseText);
             }
 
 
@@ -113,52 +119,6 @@
                         }
                     }
                 });
-            }
-
-
-
-            /**
-              * Check for the various File API support.
-              */
-            function checkFileAPI()
-            {
-                if (window.File && window.FileReader && window.FileList && window.Blob) {
-                        return true;
-                } else {
-                    err = 'The File APIs are not fully supported in this browser.';
-                    var log = document.getElementById('srch_status');
-                    log.innerHTML = err;
-                    log.style.visibility = 'visible';
-                    console.log(err);
-                    return false;
-                }
-            }
-
-
-
-            function handleFileSelect()
-            {
-                var input = document.getElementById('fileinput');
-                if (!input)
-                {
-                    var log = document.getElementById('srch_status');
-                    err = "Couldn't find the fileinput element.";
-                    log.innerHTML = err;
-                    log.style.visibility = 'visible';
-                    console.log(err);
-                    return;
-                }
-                file = input.files[0];
-                var fileReader = new FileReader();
-                fileReader.onload = receivedText;
-                fileReader.readAsText(file, "UTF-8");
-            }
-
-
-            function receivedText(evt)
-            {
-                let lines = evt.target.result;
-                dyeData = JSON.parse(lines);
             }
 
 
@@ -507,22 +467,11 @@
         </script>
 
     </head>
-    <body id="main_body" onload="checkFileAPI()">
+    <body id="main_body" onload="loadJSON()">
 
         <div id="form_container">
 
-            <h1><a>Search the Dye Aggregation in DSSC Database</a></h1>
-
-            <form id="frmLoad" class="appnitro">
-                <div class="form_description">
-                </div>
-                <ul>
-                    <li id="li_0" >
-                        <input type="file" id="fileinput"/>
-                        <input type='button' id='btnLoad' value='Load' onclick='handleFileSelect();'>
-                    </li>
-                </ul>
-            </form>
+            <h1><a>The Dye Aggregation Database</a></h1>
 
             <form id="frmDye" class="appnitro">
                 <div class="form_description">
@@ -670,9 +619,6 @@
                 </ul>
             </form>
         </div>
-
-
-
 
         <div id="srch_status" style="padding-top:10px;padding-bottom:10px"></div>
 
