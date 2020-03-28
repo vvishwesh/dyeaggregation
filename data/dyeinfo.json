@@ -675,7 +675,7 @@
         "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 406,
         "DONOR": "diphenylamine",
-        "STRUCTURE": "C(#N)/C(/C(=O)O)=C\\C=1SC(=CC1)C1=CC=2C(C3=CC(=CC=C3C2C=C1)N(C1=CC=CC=C1)C1=CC=CC=C1)(CC)CC",
+        "STRUCTURE": "CCC6(CC)c3cc(N(c1ccccc1)c2ccccc2)ccc3C5/C=C\\C(c4ccc(/C=C(C#N)/C(=O)O)s4)=C/C56",
         "PEAK_ABSORPTION_METAL_OXIDE": 431,
         "METAL_OXIDE": "Al2O3",
         "SOLVENT": "acetone",
@@ -936,7 +936,7 @@
         "DOI": "10.1021/jp067872t"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 421,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCCCCCCCCN1c2ccccc2C(/C/1=C\\C1=C(O)C(=O)C1=O)(C)C",
@@ -969,7 +969,7 @@
         "DOI": "10.1016/j.dyepig.2019.02.028"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 515,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCCCCCCCCCCn1c2N(C)C=CC(c2c2c1cccc2)CC1=C(C(=O)C1=O)OCC",
@@ -4445,7 +4445,7 @@
         "DOI": "10.1039/C2TA00883A"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 642,
         "DONOR": "indoline,squaraine",
         "STRUCTURE": "CCCCN1c2ccccc2C(C1=CC1=C([O-])C(=CC2=[N+](CCCC)c3c(C2)cccc3)C1=O)(C)C",
@@ -23398,7 +23398,7 @@
         "DOI": "10.1007/s11696-019-00978-5"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 652,
         "DONOR": "squaraine",
         "STRUCTURE": "CCN1C2=CC=CC=C2C(C)(C)\\C1=C/C1=C([O-])/C(=C\\C2=[N+](CC)C3=CC=CC=C3C2(C)C)/C1=O",
@@ -29184,7 +29184,7 @@
         "DOI": "10.1021/jp900328u"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 419,
         "DONOR": "squaraine",
         "STRUCTURE": "C[N+]1=C(\\C=C2/C([O-])=C(O)C2=O)C(C)(C)C2=CC=CC=C12",
@@ -29195,7 +29195,7 @@
         "DOI": "10.1016/j.dyepig.2005.04.008"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 423,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCC[N+]1=C(\\C=C2/C([O-])=C(O)C2=O)C(C)(C)C2=CC=CC=C12",
@@ -29206,7 +29206,7 @@
         "DOI": "10.1016/j.dyepig.2005.04.008"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 423,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCCCCCCCCCCCCCCCC[N+]1=C(\\C=C2/C([O-])=C(O)C2=O)C(C)(C)C2=CC=CC=C12",
@@ -29217,7 +29217,7 @@
         "DOI": "10.1016/j.dyepig.2005.04.008"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 442,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCC[N+]1=C(\\C=C2/C([O-])=C(O)C2=O)C(C)(C)C2=C1C=CC(C1=CC=CC=C1)=C2C1=CC=CC=C1",
@@ -29228,7 +29228,7 @@
         "DOI": "10.1016/j.dyepig.2005.04.008"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 446,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCC[N+]1=C(SC2=CC=CC=C12)\\C=C1/C([O-])=C(O)C1=O",
@@ -29239,7 +29239,7 @@
         "DOI": "10.1016/j.dyepig.2005.04.008"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 465,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCC[N+]1=C(\\C=C2/C([O-])=C(O)C2=O)C=CC2=CC=CC=C12",
@@ -29272,7 +29272,7 @@
         "DOI": "10.1039/C4TA06896C"
         },
         {
-        "ANCHORING_GROUP": "squarate",
+        "ANCHORING_GROUP": "squaraine",
         "PEAK_ABSORPTION_SOLUTION": 428,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCCCCCCCCCCN1C2=C(C=C3C=CC=CC3=C2)C(C)(C)\\C1=C/C1C(O)C(=O)C1=O",
