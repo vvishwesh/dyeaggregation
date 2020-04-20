@@ -221,7 +221,7 @@
         "DOI": "10.1016/j.dyepig.2011.11.008"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 375,
         "DONOR": "triphenylamine,carbazole",
         "STRUCTURE": "OC(=O)CCCCCCn1c2cc(ccc2c2c1cc(cc2)c1ccncc1)N(c1ccccc1)c1ccccc1",
@@ -232,7 +232,7 @@
         "DOI": "10.1002/chem.201101923"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 396,
         "DONOR": "triphenylamine,carbazole",
         "STRUCTURE": "OC(=O)CCCCCCn1c2cc(ccc2c2c1cc(cc2)N(c1ccccc1)c1ccccc1)c1ccc(s1)c1ccncc1",
@@ -430,7 +430,7 @@
         "DOI": "10.1039/C6CP06513A"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 378,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCn1c2ccc(cc2c2c1ccc(c2)c1ccc(s1)c1ccncc1)c1ccc(s1)c1ccc(cc1)C(=O)O",
@@ -903,7 +903,7 @@
         "DOI": "10.1039/B203260K"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 500,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "CCCCCCCCN(c1ccc2c3c1cccc3c1c3c2ccc2c3c(cc1)c(=O)n(c2=O)CC(=O)O)CCCCCCCC",
@@ -2861,7 +2861,7 @@
         "DOI": "10.1039/C0CC00808G"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 508,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc(n1CCCCCCOc1ccccc1OCCCCCCn1c(/C=C/c2ccc(cc2)N(c2ccccc2)c2ccccc2)ccc1/C=C(/C(=O)O)\\C#N)/C=C/c1ccc(cc1)N(c1ccccc1)c1ccccc1)/C(=O)O",
@@ -3312,7 +3312,7 @@
         "DOI": "10.1016/j.jpowsour.2013.09.106"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 576,
         "DONOR": "indoline",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1cnc(c2c1nsn2)c1ccc2c(c1)[C@@H]1CCC[C@@H]1N2c1ccc(cc1)C)/C(=O)O",
@@ -3323,7 +3323,7 @@
         "DOI": "10.1021/jp501173b"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 593,
         "DONOR": "indoline",
         "STRUCTURE": "CCCC[C@H](C[C@@]1(C[C@H](CCCC)CC)c2cc(sc2c2c1cc(s2)c1ccc(s1)/C=C(/C(=O)O)\\C#N)c1cnc(c2c1nsn2)c1ccc2c(c1)[C@H]1CCC[C@H]1N2c1ccc(cc1)C)CC",
@@ -3796,7 +3796,7 @@
         "DOI": "10.1021/acsami.7b08346"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 459,
         "DONOR": "misc",
         "STRUCTURE": "CCN(c1ccc2c(c1)ccc(n2)/C=C(/C(=O)O)\\C#N)CC",
@@ -3807,7 +3807,7 @@
         "DOI": "10.1016/j.saa.2017.09.002"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 452,
         "DONOR": "carbazole",
         "STRUCTURE": "N#C/C(=C\\c1ccc2c(n1)ccc(c2)n1c2ccc(cc2c2c1ccc(c2)OC)OC)/C(=O)O",
@@ -3818,7 +3818,7 @@
         "DOI": "10.1016/j.saa.2017.09.002"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 466,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCOc1ccc(cc1)N(c1ccc2c(c1)ccc(n2)/C=C(\\C(=O)O)/C#N)c1ccc(cc1)OCCCC",
@@ -3972,7 +3972,7 @@
         "DOI": "10.1021/acsomega.7b01387"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 568,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCCCCCOc1ccc(cc1)C1(c2ccc(cc2)OCCCCCCCC)c2ccsc2c2c1cc1c3cc4c(cc3n(c1c2)CCCCCCCC)c1c(C4(c2ccc(cc2)OCCCCCCCC)c2ccc(cc2)OCCCCCCCC)cc(s1)c1cnc(c2c1nsn2)c1ccc(cc1)C(=O)O",
@@ -4137,7 +4137,7 @@
         "DOI": "10.1016/j.dyepig.2018.04.067"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 502,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCc1nc2c(ncc(c2nc1CCCCC)c1ccc2c(c1)[C@H]1CCC[C@H]1N2c1ccc(cc1)C)c1cc2c(s1)c1sc(cc1c1c2nc(CCCCC)c(n1)CCCCC)/C=C(/C(=O)O)\\C#N",
@@ -4148,7 +4148,7 @@
         "DOI": "10.1016/j.dyepig.2018.04.067"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 692,
         "DONOR": "indoline,squaraine",
         "STRUCTURE": "CCCCCCCCCCCCC1(CCCCCCCCCCCC)c2cc3c(cc2c2c1cccc2)ccc([n+]3C)C=C1C(=C(C1=O)C=C1N(C)c2c(C1(C)C)ccc(c2)C(=O)O)[O-]",
@@ -4159,7 +4159,7 @@
         "DOI": "10.1002/chem.201803062"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 715,
         "DONOR": "indoline,squaraine",
         "STRUCTURE": "CCCCCCCCCCCCC1(CCCCCCCCCCCC)c2cc3c(cc2c2c1cccc2)ccc([n+]3C)C=C1C(=C(C1=O)C=C1N(C)c2c(C1(C)C)cc1c(c2)cc(cc1)C(=O)O)[O-]",
@@ -4170,7 +4170,7 @@
         "DOI": "10.1002/chem.201803062"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 754,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCCCCCCCCCCC1(CCCCCCCCCCCC)c2cc3c(cc2c2c1cccc2)ccc([n+]3C)C=C1C(=C(C1=O)C=c1ccc2c(n1C)ccc(c2)C(=O)O)[O-]",
@@ -4456,7 +4456,7 @@
         "DOI": "10.1039/C2TA00883A"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 479,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OCCCC)c1ccc(cc1)OCCCC)c1ccc2c(c1)cc[n+](c2)CC(=O)O",
@@ -4467,7 +4467,7 @@
         "DOI": "10.1039/C2TA00905F"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 493,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OCCCC)c1ccc(cc1)OCCCC)c1sc(cc1CCCCCC)c1sc(cc1CCCCCC)c1ccc2c(c1)cc[n+](c2)CC(=O)O",
@@ -4478,7 +4478,7 @@
         "DOI": "10.1039/C2TA00905F"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 474,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)c1ccc(cc1OCCCC)OCCCC)c1ccc(cc1)c1ccc(cc1OCCCC)OCCCC)c1ccc2c(c1)cc[n+](c2)CC(=O)O",
@@ -4489,7 +4489,7 @@
         "DOI": "10.1039/C2TA00905F"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 485,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)c1ccc(cc1OCCCC)OCCCC)c1ccc(cc1)c1ccc(cc1OCCCC)OCCCC)c1sc(cc1CCCCCC)c1sc(cc1CCCCCC)c1ccc2c(c1)cc[n+](c2)CC(=O)O",
@@ -4852,7 +4852,7 @@
         "DOI": "10.1021/cm301520z"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 530,
         "DONOR": "misc",
         "STRUCTURE": "CCCCC(COc1ccc(cc1)c1cc2ccc(c3c2n2c1ccc2c(c3)c1ccc(cc1)OCC(CCCC)CC)C=C(C(=O)O)C#N)CC",
@@ -4863,7 +4863,7 @@
         "DOI": "10.1039/C6RA11918B"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 480,
         "DONOR": "misc",
         "STRUCTURE": "CCCCC(COc1ccc(cc1)c1cc2ccc(c3c2n2c1ccc2c(c3)c1ccc(cc1)OCC(CCCC)CC)C=Cc1ccc(cc1)C(=O)O)CC",
@@ -4874,7 +4874,7 @@
         "DOI": "10.1039/C6RA11918B"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 490,
         "DONOR": "misc",
         "STRUCTURE": "CCCCC(COc1ccc(cc1)c1cc2ccc(c3c2n2c1ccc2c(c3)c1ccc(cc1)OCC(CCCC)CC)C=Cc1ccc(s1)C(=O)O)CC",
@@ -5094,7 +5094,7 @@
         "DOI": "10.1002/chem.201702285"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 545,
         "DONOR": "bodipy,triphenylamine",
         "STRUCTURE": "COc1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)c1c(C)c2n(c1C)[B-]1(Oc3c(O1)cccc3)[N+]1=C(C(=C(C1=C2C)C)c1ccc(s1)C=C(C(=O)O)C#N)C",
@@ -5930,7 +5930,7 @@
         "DOI": "10.1016/j.tet.2014.02.002"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 533,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCn1c(=O)c2c(cc3c4c2c(c1=O)cc(c4c(=O)n(c3=O)CCCCCCCC)c1ccc(s1)C=C(C(=O)O)C#N)c1ccc(s1)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -5974,7 +5974,7 @@
         "DOI": "10.1016/j.dyepig.2015.09.002"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 441,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc2c(n1)ccc(c2)N(c1ccccc1)c1ccccc1)/C(=O)O",
@@ -5985,7 +5985,7 @@
         "DOI": "10.1016/j.dyepig.2015.09.002"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 466,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCOc1ccc(cc1)N(c1ccc2c(c1)ccc(n2)/C=C(/C(=O)O)\\C#N)c1ccc(cc1)OCCCC",
@@ -6007,7 +6007,7 @@
         "DOI": "10.1016/j.dyepig.2015.09.025"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic, carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 497,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1ccc(s1)/C=C/c1cc(sc1c1ccc(cc1)N(c1ccc(cc1)C)c1ccc(cc1)C)/C=C(/C(=O)O)\\C#N",
@@ -8218,7 +8218,7 @@
         "DOI": "10.1016/j.molstruc.2018.12.052"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 458,
         "DONOR": "indoline",
         "STRUCTURE": "Cc1ccc(cc1)N1[C@@H]2CCC[C@@H]2c2c1ccc(c2)c1ccc2c3c1cccc3c(=O)n(c2=O)CC(=O)O",
@@ -8229,7 +8229,7 @@
         "DOI": "10.1016/j.dyepig.2011.01.010"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 473,
         "DONOR": "indoline",
         "STRUCTURE": "OC(=O)Cn1c(=O)c2ccc(c3c2c(c1=O)ccc3c1ccc2c(c1)[C@H]1CCC[C@H]1N2c1ccc(cc1)C)c1ccc2c(c1)[C@H]1CCC[C@H]1N2c1ccc(cc1)C",
@@ -8240,7 +8240,7 @@
         "DOI": "10.1016/j.dyepig.2011.01.010"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 419,
         "DONOR": "triphenylamine",
         "STRUCTURE": "OC(=O)Cn1c(=O)c2ccc(c3c2c(c1=O)ccc3)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -8251,7 +8251,7 @@
         "DOI": "10.1016/j.dyepig.2011.01.010"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 438,
         "DONOR": "triphenylamine",
         "STRUCTURE": "OC(=O)Cn1c(=O)c2ccc(c3c2c(c1=O)ccc3c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -8790,7 +8790,7 @@
         "DOI": "10.1021/cm5016355"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 428,
         "DONOR": "porphyrin",
         "STRUCTURE": "COC(=O)c1ccc(cc1)/C/1=C/2\\C=CC(=N2)/C(=c/2\\n3[Zn]n4c1ccc4/C(=C\\1/C=CC(=N1)/C(=c\\3/cc2)/c1ccncc1)/c1ccc(cc1)C(=O)OC)/c1ccncc1",
@@ -8801,7 +8801,7 @@
         "DOI": "10.1039/c2ra22129b"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 428,
         "DONOR": "porphyrin",
         "STRUCTURE": "COC(=O)c1ccc(cc1)/C/1=C/2\\C=CC(=N2)/C(=c/2\\n3[Zn]n4c1ccc4/C(=C\\1/C=CC(=N1)/C(=c\\3/cc2)/c1ccncc1)/c1ccc(cc1)C(=O)OC)/c1ccncc1",
@@ -8823,7 +8823,7 @@
         "DOI": "10.1039/c2ra22129b"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 546,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1ncc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)/C(=O)O",
@@ -8834,7 +8834,7 @@
         "DOI": "10.1016/j.dyepig.2013.11.001"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 575,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1ncc(c2c1nsn2)c1ccc(cc1)N(c1ccc2c(c1)C(C)(C)c1c2cccc1)c1ccc2c(c1)C(C)(C)c1c2cccc1)/C(=O)O",
@@ -8845,7 +8845,7 @@
         "DOI": "10.1016/j.dyepig.2013.11.001"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 585,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1cnc(c2c1nsn2)c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -9582,7 +9582,7 @@
         "DOI": "10.1039/C6TC03418G"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 557,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCCCCOc1cc(OCCCCCCCC)ccc1c1ccc(cc1)C(=Cc1ccc(cc1)N1c2ccc(cc2[C@H]2[C@@H]1CCC2)c1ncc(c2c1nc(c1ccccc1)c(n2)c1ccccc1)c1ccc(s1)/C=C(/C(=O)O)\\C#N)c1ccc(cc1)c1ccc(cc1OCCCCCCCC)OCCCCCCCC",
@@ -9593,7 +9593,7 @@
         "DOI": "10.1021/am507824h"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 541,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1cc(OCCCCCCCC)ccc1c1ccc(cc1)N(c1ccc(cc1)c1ncc(c2c1nc(c1ccccc1)c(n2)c1ccccc1)c1ccc(s1)/C=C(/C(=O)O)\\C#N)c1ccc(cc1)c1ccc(cc1OCCCCCCCC)OCCCCCCCC",
@@ -9615,7 +9615,7 @@
         "DOI": "10.1039/c3cp52314d"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 508,
         "DONOR": "phenothiazine",
         "STRUCTURE": "CCCCCCN1c2ccc(cc2Sc2c1ccc(c2)/C=C/c1cc[n+](cc1)CC(=O)O)c1ccc(cc1OCCCCCC)OCCCCCC",
@@ -10011,7 +10011,7 @@
         "DOI": "10.1016/j.dyepig.2012.12.007"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 455,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1cc[n+](cc1)CC(=O)O",
@@ -10022,7 +10022,7 @@
         "DOI": "10.1021/jp311378b"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 481,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)OC)c1cc[n+](cc1)CC(=O)O",
@@ -10033,7 +10033,7 @@
         "DOI": "10.1021/jp311378b"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 486,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC)c1cc[n+](cc1)CC(=O)O",
@@ -10044,7 +10044,7 @@
         "DOI": "10.1021/jp311378b"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 483,
         "DONOR": "triphenylamine",
         "STRUCTURE": "OC(=O)C[n+]1ccc(cc1)/C=C/c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -10055,7 +10055,7 @@
         "DOI": "10.1021/jp311378b"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 504,
         "DONOR": "triphenylamine",
         "STRUCTURE": "COc1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)/C=C/c1cc[n+](cc1)CC(=O)O",
@@ -10066,7 +10066,7 @@
         "DOI": "10.1021/jp311378b"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 506,
         "DONOR": "phenothiazine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc2c(c1)Sc1c(N2CCCCCC)cccc1)c1cc[n+](cc1)C(=O)O",
@@ -10077,7 +10077,7 @@
         "DOI": "10.1021/jp311378b"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 520,
         "DONOR": "phenothiazine",
         "STRUCTURE": "CCCCCCN1c2ccc(cc2Sc2c1ccc(c2)c1sc(cc1CCCCCC)c1cc[n+](cc1)C(=O)O)c1ccc(cc1OCCCCCC)OCCCCCC",
@@ -11661,7 +11661,7 @@
         "DOI": "10.1021/acsami.8b02676"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 524,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCCCCOc1c(c2ccc3c(c2)[C@H]2CCC[C@H]2N3c2ccc(cc2)C)c2nc3c(nc2c(c1OCCCCCCCC)c1ccc(s1)/C=C(/C(=O)O)\\C#N)c1ccccc1c1c3cccc1",
@@ -11870,7 +11870,7 @@
         "DOI": "10.1021/acsami.8b02676"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 524,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCCCCOc1c(c2ccc3c(c2)C2CCCC2N3c2ccc(cc2)C)c2nc3c(nc2c(c1OCCCCCCCC)c1ccc(s1)/C=C(/C(=O)O)\\C#N)c1ccccc1c1c3cccc1",
@@ -12013,7 +12013,7 @@
         "DOI": "10.1021/jp502488g"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 506,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "OC(=O)CNc1ccc2c3c1cccc3c1c3c2ccc2c3c(cc1)c(=O)n(c2=O)c1cc(ccc1C(C)(C)C)C(C)(C)C",
@@ -12024,7 +12024,7 @@
         "DOI": "10.1039/B203260K"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 576,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "CC(c1cccc(c1n1c(=O)c2cc(Oc3ccccc3)c3c4c2c(c1=O)cc(c4c1c2c3c(Oc3ccccc3)cc3c2c(cc1Oc1ccccc1)C(=O)OC3=O)Oc1ccccc1)C(C)C)C",
@@ -12233,7 +12233,7 @@
         "DOI": "10.1016/j.dyepig.2017.09.053"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 475,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCCCCCOc1nc(cc(c1C#N)c1ccc2c(c1)n(CC)c1c2cccc1)c1ccc(s1)c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -12244,7 +12244,7 @@
         "DOI": "10.1016/j.solener.2018.09.073"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 409,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCCCCCOc1nc(cc(c1C#N)c1ccc2c(c1)n(CC)c1c2cccc1)c1ccc(cc1)c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -12662,7 +12662,7 @@
         "DOI": "10.1021/acssuschemeng.6b00574"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 628,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1ccc(c(c1)OCCCCCCCC)c1cc(ccc1N(c1ccc2c(c1)C(C)(C)c1c2sc(c1)c1ncc(c2c1nc(c1ccccc1)c(n2)c1ccccc1)c1ccc(s1)C=C(C(=O)O)C#N)c1ccc(cc1)c1ccc(cc1OCCCCCCCC)OCCCCCCCC)c1ccc(cc1OCCCCCCCC)OCCCCCCCC",
@@ -12761,7 +12761,7 @@
         "DOI": "10.1021/jp412259t"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 483,
         "DONOR": "misc",
         "STRUCTURE": "CCCCCCCCOc1c(OCCCCCCCC)c(c2ccc(s2)N(c2ccccc2)c2ccccc2)c2c(c1c1ccc(cc1)/C=C(/C(=O)O)\\C#N)nsn2",
@@ -12772,7 +12772,7 @@
         "DOI": "10.1039/C4TC00169A"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 525,
         "DONOR": "misc",
         "STRUCTURE": "CCCCCCCCOc1c(OCCCCCCCC)c(c2ccc(s2)N(c2ccccc2)c2ccccc2)c2c(c1c1ccc(o1)/C=C(\\C(=O)O)/C#N)nsn2",
@@ -12783,7 +12783,7 @@
         "DOI": "10.1039/C4TC00169A"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 531,
         "DONOR": "misc",
         "STRUCTURE": "CCCCCCCCOc1c(OCCCCCCCC)c(c2ccc(s2)N(c2ccccc2)c2ccccc2)c2c(c1c1ccc(s1)/C=C(\\C(=O)O)/C#N)nsn2",
@@ -12794,7 +12794,7 @@
         "DOI": "10.1039/C4TC00169A"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 554,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC)c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -12805,7 +12805,7 @@
         "DOI": "10.1039/C4TA05350H"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 548,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ncc(c2c1nsn2)c1sc(cc1CCCCCC)c1sc(c(c1)CCCCCC)/C=C(/C(=O)O)\\C#N",
@@ -12816,7 +12816,7 @@
         "DOI": "10.1039/C4TA05350H"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 540,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC)c1ccc(cc1)/C=C(/C(=O)O)\\C#N",
@@ -12827,7 +12827,7 @@
         "DOI": "10.1039/C4TA05350H"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 563,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ncc(c2c1nsn2)c1sc(cc1CCCCCC)c1ccc(cc1)/C=C(/C(=O)O)\\C#N)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC",
@@ -12838,7 +12838,7 @@
         "DOI": "10.1039/C4TA05350H"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 591,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ccc(s1)c1ncc(c2c1nsn2)c1ccc(s1)c1ccc(cc1)/C=C(/C(=O)O)\\C#N",
@@ -12882,7 +12882,7 @@
         "DOI": "10.1016/j.dyepig.2013.08.023"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 535,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(s1)c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -12893,7 +12893,7 @@
         "DOI": "10.1016/j.tet.2014.04.039"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 500,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -12904,7 +12904,7 @@
         "DOI": "10.1016/j.tet.2014.04.039"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 620,
         "DONOR": "diphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(s1)c1cnc(c2c1nsn2)c1ccc(s1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -12915,7 +12915,7 @@
         "DOI": "10.1016/j.tet.2014.04.039"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 575,
         "DONOR": "diphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1cnc(c2c1nsn2)c1ccc(s1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -13278,7 +13278,7 @@
         "DOI": "10.1039/c0jm03811c"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 477,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2ccc(s2)/C=C(/C(=O)O)\\C#N)c2c(c1c1ccc(s1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)nc(c(n2)C)C",
@@ -13289,7 +13289,7 @@
         "DOI": "10.1016/j.dyepig.2013.03.015"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 438,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2ccc(o2)/C=C(/C(=O)O)\\C#N)c2c(c1c1ccc(o1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)nc(c(n2)C)C",
@@ -13311,7 +13311,7 @@
         "DOI": "10.1016/j.dyepig.2013.03.015"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 504,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2sc(c(c2)CCCCCC)/C=C(/C(=O)O)\\C#N)c2c(c1c1sc(c(c1)CCCCCC)c1ccc(cc1)N(c1ccccc1)c1ccccc1)nc1c(n2)c2ccccc2c2c1cccc2",
@@ -13322,7 +13322,7 @@
         "DOI": "10.1039/c2jm33833e"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 513,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2sc(c(c2)CCCCCC)/C=C(/C(=O)O)\\C#N)c2c(c1c1sc(c(c1)CCCCCC)c1ccc(cc1)N(c1ccc(cc1)C)c1ccc(cc1)C)nc1c(n2)c2ccccc2c2c1cccc2",
@@ -13333,7 +13333,7 @@
         "DOI": "10.1039/c2jm33833e"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 516,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)OC)c1c(OCCCCCC)c(OCCCCCC)c(c2c1nc1c3ccccc3c3c(c1n2)cccc3)c1sc(c(c1)CCCCCC)/C=C(/C(=O)O)\\C#N",
@@ -13740,7 +13740,7 @@
         "DOI": "10.1016/j.solener.2017.08.012"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 500,
         "DONOR": "triphenylamine",
         "STRUCTURE": "COc1ccc(cc1)c1nc2c(ncc(c2nc1c1ccc(cc1)OC)c1ccc(s1)C=C(C(=O)O)C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -13751,7 +13751,7 @@
         "DOI": "10.1039/C3SC51844B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 497,
         "DONOR": "triphenylamine",
         "STRUCTURE": "COc1ccc(cc1)c1nc2c(ncc(c2nc1c1ccc(cc1)OC)c1ccc(o1)C=C(C(=O)O)C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -13762,7 +13762,7 @@
         "DOI": "10.1039/C3SC51844B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 506,
         "DONOR": "triphenylamine",
         "STRUCTURE": "COc1ccc(cc1)c1nc2c(ncc(c2nc1c1ccc(cc1)OC)c1ccc(cc1)C=C(C(=O)O)C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -13773,7 +13773,7 @@
         "DOI": "10.1039/C3SC51844B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 461,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCCCC)c1ccc(cc1)c1ncc(c2c1nc(c1ccc(cc1)OC)c(n2)c1ccc(cc1)OC)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -13784,7 +13784,7 @@
         "DOI": "10.1039/C3SC51844B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 524,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(s1)c1cnc(c2c1nccn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -13872,7 +13872,7 @@
         "DOI": "10.1039/C4TA06705C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 612,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1ccc(c(c1)OCCCCCCCC)c1cc(ccc1N(c1ccc2c(c1)C(C)(C)c1c2sc(c1)c1cnc(c2c1nc(c1ccccc1)c(n2)c1ccccc1)c1sc2c(c1)C(c1c2sc(c1)/C=C(/C(=O)O)\\C#N)(CC(CCCC)CC)CC(CCCC)CC)c1ccc(cc1)c1ccc(cc1OCCCCCCCC)OCCCCCCCC)c1ccc(cc1OCCCCCCCC)OCCCCCCCC",
@@ -13960,7 +13960,7 @@
         "DOI": "10.1039/C6TA05588E"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 562,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCCCCCCCCOc1ccc(cc1)c1nc2c(ncc(c2nc1c1ccc(cc1)OCCCCCCCCCCCC)c1sc2c(c1)[Si](c1c2sc(c1)/C=C(/C(=O)O)\\C#N)(CC(CCCC)CC)CC(CCCC)CC)c1ccc2c(c1)C1CCCC1N2c1ccc(cc1)C",
@@ -13971,7 +13971,7 @@
         "DOI": "10.1039/C6TA05588E"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 593,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCCCCCCCCc1ccc2c(c1)c1cc(CCCCCCCCCCCC)ccc1c1c2nc2c(n1)c(cnc2c1ccc2c(c1)C1CCCC1N2c1ccc(cc1)C)c1sc2c(c1)[Si](c1c2sc(c1)/C=C(/C(=O)O)\\C#N)(CC(CCCC)CC)CC(CCCC)CC",
@@ -14433,7 +14433,7 @@
         "DOI": "10.1002/chem.201103702"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 503,
         "DONOR": "tetrahydroquinoline",
         "STRUCTURE": "OC(=O)C[n+]1ccc(cc1)/C=C/c1ccc2c(c1)C(C)CC(N2C)(C)C",
@@ -14444,7 +14444,7 @@
         "DOI": "10.1002/chem.201200826"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 514,
         "DONOR": "tetrahydroquinoline",
         "STRUCTURE": "COc1cc2c(cc1/C=C/c1cc[n+](cc1)CC(=O)O)C(C)CC(N2C)(C)C",
@@ -14455,7 +14455,7 @@
         "DOI": "10.1002/chem.201200826"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 504,
         "DONOR": "tetrahydroquinoline",
         "STRUCTURE": "CCCCCCC1CC(C)(CCCCCC)N(c2c1cc(/C=C/c1cc[n+](cc1)CC(=O)O)cc2)C",
@@ -14466,7 +14466,7 @@
         "DOI": "10.1002/chem.201200826"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 521,
         "DONOR": "tetrahydroquinoline",
         "STRUCTURE": "CCCCCCC1CC(C)(CCCCCC)N(c2c1cc(/C=C/c1cc[n+](cc1)CC(=O)O)c(c2)OC)C",
@@ -14488,7 +14488,7 @@
         "DOI": "10.1002/chem.201200826"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 563,
         "DONOR": "indoline",
         "STRUCTURE": "N#C/C(=C/C1=CC=C(C1)c1cnc(c2c1nc(c1ccccc1)c(n2)c1ccccc1)c1ccc2c(c1)C1CCCC1N2c1ccc(cc1)C)/C(=O)O",
@@ -14499,7 +14499,7 @@
         "DOI": "10.1002/chem.201503514"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 563,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCCCCCOc1ccc(cc1)c1nc2c(ncc(c2nc1c1ccc(cc1)OCCCCCCCC)C1=CC=C(C1)/C=C(\\C(=O)O)/C#N)c1ccc2c(c1)C1CCCC1N2c1ccc(cc1)C",
@@ -14818,7 +14818,7 @@
         "DOI": "10.3390/app8091421"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 588,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ccc(c2c1nc1c(n2)c2ccc(nc2c2c1ccc(n2)C(=O)O)C(=O)O)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC",
@@ -14873,7 +14873,7 @@
         "DOI": "10.1039/C7NJ04629D"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 389,
         "DONOR": "misc",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1ccc2c(c1)c1nc3cc(OC)c(c(c3cc1cn2)OC)OC)C(=O)O",
@@ -14884,7 +14884,7 @@
         "DOI": "10.1016/j.dyepig.2019.01.027"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 369,
         "DONOR": "misc",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1ccc2c(c1)c1nc3ccc(cc3cc1cn2)OC)C(=O)O",
@@ -14895,7 +14895,7 @@
         "DOI": "10.1016/j.dyepig.2019.01.027"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 453,
         "DONOR": "misc",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1ccc2c(c1)c1nc3ccc(cc3cc1cn2)N(C)C)C(=O)O",
@@ -15005,7 +15005,7 @@
         "DOI": "10.1016/j.solener.2018.08.029"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 356,
         "DONOR": "carbazole",
         "STRUCTURE": "N#C/C(=C\\c1ccc(cc1)c1ccc2c3c1cccc3c(=O)n(c2=O)c1ccc2c(c1)c1ccccc1n2CC)/C(=O)O",
@@ -15016,7 +15016,7 @@
         "DOI": "10.1007/s10854-018-9750-4"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 397,
         "DONOR": "carbazole",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1ccc2c3c1cccc3c(=O)n(c2=O)c1ccc2c(c1)c1ccccc1n2CC)/C(=O)O",
@@ -15027,7 +15027,7 @@
         "DOI": "10.1007/s10854-018-9750-4"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 443,
         "DONOR": "carbazole",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1ccc(s1)c1ccc2c3c1cccc3c(=O)n(c2=O)c1ccc2c(c1)c1ccccc1n2CC)/C(=O)O",
@@ -15038,7 +15038,7 @@
         "DOI": "10.1007/s10854-018-9750-4"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 481,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC1(CCCC)c2cc(ccc2c2c1cccc2)n1c2cc(sc2c2c1cc(s2)c1ccc2c3c1cccc3c(=O)n(c2=O)c1ccc2c(c1)c1ccccc1n2CC)/C=C(/C(=O)O)\\C#N",
@@ -15126,7 +15126,7 @@
         "DOI": "10.1016/j.dyepig.2019.04.048"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 456,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCOc1cc(OCCCC)ccc1c1ccc(cc1)N(c1ccc(cc1)c1ccc(cc1OCCCC)OCCCC)c1ccc(cc1)c1ccc(s1)c1ccc(s1)c1cc(nc(c1)C(=O)O)C(=O)O",
@@ -15247,7 +15247,7 @@
         "DOI": "10.1016/j.dyepig.2015.10.022"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 562,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCC(COc1cc(OCC(CCCC)CC)ccc1c1ccc(cc1)C(=Cc1ccc(cc1)N1C2CCCC2c2c1ccc(c2)c1cnc(c2c1nc(c1ccccc1)c(n2)c1ccccc1)c1sc2c(c1)C(c1c2sc(c1)/C=C(/C(=O)O)\\C#N)(CC(CCCC)CC)CC(CCCC)CC)c1ccc(cc1)c1ccc(cc1OCC(CCCC)CC)OCC(CCCC)CC)CC",
@@ -15258,7 +15258,7 @@
         "DOI": "10.1039/C6QM00119J"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 561,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCC(COc1cc(OCC(CCCC)CC)ccc1c1ccc(cc1)C(=Cc1ccc(cc1)N1c2ccc(cc2C2C1CCC2)c1cnc(c2c1nc(c1ccccc1)c(n2)c1ccccc1)c1sc(c2c1OCCO2)/C=C(/C(=O)O)\\C#N)c1ccc(cc1)c1ccc(cc1OCC(CCCC)CC)OCC(CCCC)CC)CC",
@@ -15379,7 +15379,7 @@
         "DOI": "10.1016/j.dyepig.2014.09.014"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 504,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(o1)c1ccc(cc1)N(c1ccc(c(c1)OC)OC)c1ccc(c(c1)OC)OC)C(=O)O",
@@ -15390,7 +15390,7 @@
         "DOI": "10.1016/j.dyepig.2014.09.014"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 502,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(o1)c1ccc(cc1)N(c1ccc2c(c1)OCCO2)c1ccc2c(c1)OCCO2)C(=O)O",
@@ -16248,7 +16248,7 @@
         "DOI": "10.1016/j.dyepig.2015.09.004"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 477,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCC1(CCCCCC)c2cc(sc2c2c1cc(s2)c1ccc2c(c1)nc(c(c2)/C=C(\\C(=O)O)/C#N)Cl)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC",
@@ -16259,7 +16259,7 @@
         "DOI": "10.1021/jp5004352"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 469,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCC1(CCCCCC)c2cc(sc2c2c1cc(s2)c1ccc2c(c1)[nH]c(=O)c(c2)/C=C(\\C(=O)O)/C#N)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC",
@@ -16281,7 +16281,7 @@
         "DOI": "10.1021/jp5004352"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 504,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCC1(CCCCCC)c2cc(sc2c2c1cc(s2)c1ccc2c(c1)[nH]c(=O)c(c2)C(=O)O)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC",
@@ -16292,7 +16292,7 @@
         "DOI": "10.1021/jp5004352"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 473,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCC1(CCCCCC)c2cc(sc2c2c1cc(s2)c1ccc2c(c1)nc(c(c2)C(=O)O)Cl)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC",
@@ -17535,7 +17535,7 @@
         "DOI": "10.1016/j.orgel.2014.04.009"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 423,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1c(c2ccc(cc2)N(c2ccccc2)c2ccccc2)c2nsnc2c(c1OCCCCCCCC)c1ccc(cc1)/C=C(\\C(=O)O)/C#N",
@@ -17546,7 +17546,7 @@
         "DOI": "10.1002/ejoc.201201424"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 463,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1c(c2ccc(cc2)N(c2ccccc2)c2ccccc2)c2nsnc2c(c1OCCCCCCCC)c1ccc(o1)/C=C(\\C(=O)O)/C#N",
@@ -17557,7 +17557,7 @@
         "DOI": "10.1002/ejoc.201201424"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 468,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1c(c2ccc(cc2)N(c2ccccc2)c2ccccc2)c2nsnc2c(c1OCCCCCCCC)c1ccc(s1)/C=C(\\C(=O)O)/C#N",
@@ -17568,7 +17568,7 @@
         "DOI": "10.1002/ejoc.201201424"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 440,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1nc(cc(c1C#N)c1ccc(cc1)N(c1ccc(cc1)C)c1ccc(cc1)C)c1ccc(s1)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -17579,7 +17579,7 @@
         "DOI": "10.1039/C9NJ03460A"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic,rhodanine",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 475,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1nc(cc(c1C#N)c1ccc(cc1)N(c1ccc(cc1)C)c1ccc(cc1)C)c1ccc(s1)c1ccc(s1)C=C1SC(=S)N(C1=O)CC(=O)O",
@@ -17810,7 +17810,7 @@
         "DOI": "10.1039/C6PP00286B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 419,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(Cn1c2ccccc2c2c1c(c1ccc(cc1)c1ccc(s1)/C=C(\\C(=O)O)/C#N)c1c(c2c2ccc(cc2)c2cc(OC)c(c(c2)OC)OC)n(c2c1cccc2)CC(CCCC)CC)CC",
@@ -17942,7 +17942,7 @@
         "DOI": "10.1016/j.electacta.2015.05.158"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 435,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)N(c1ccc(cc1)C#Cc1ccccn1)c1ccc(cc1)C#Cc1ccccn1)C(=O)O",
@@ -17953,7 +17953,7 @@
         "DOI": "10.1016/j.dyepig.2015.11.008"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 443,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)N(c1ccc(cc1)C#Cc1cccnc1)c1ccc(cc1)C#Cc1cccnc1)C(=O)O",
@@ -18305,7 +18305,7 @@
         "DOI": "10.1016/j.electacta.2015.05.003"
         },
         {
-        "ANCHORING_GROUP": "catechol,malononitrile",
+        "ANCHORING_GROUP": "malononitrile",
         "PEAK_ABSORPTION_SOLUTION": 492,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1c(c2ccc(cc2)N(c2ccc(cc2)OCCCCCCCC)c2ccc(cc2)OCCCCCCCC)c2nsnc2c(c1OCCCCCCCC)c1ccc(s1)/C=c\\1/sc(=C(C#N)C#N)[nH]c1=O",
@@ -18426,7 +18426,7 @@
         "DOI": "10.1021/acsami.6b11152"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 453,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)/C=C/c1c2OC(Oc2c(c2c1OC(O2)(C)C)/C=C(/C(=O)O)\\C#N)(C)C",
@@ -18712,7 +18712,7 @@
         "DOI": "10.1039/C6CP07335B"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 517,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "OC(=O)c1ccc(cc1)Oc1ccc2c3c1cccc3c1c3c2c(Oc2ccc(cc2)C(C)(C)C)cc2c3c(cc1Oc1ccc(cc1)C(C)(C)C)c(=O)n(c2=O)c1cc(ccc1C(C)(C)C)C(C)(C)C",
@@ -18723,7 +18723,7 @@
         "DOI": "10.1016/j.jphotochem.2007.12.034"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 560,
         "DONOR": "perylene,anthracene,imidazole",
         "STRUCTURE": "OC(=O)c1ccc2c(c1)nc1n2c(=O)c2c3c1cc(Oc1ccc(cc1)C(C)(C)C)c1c3c(c(c2)Oc2ccc(cc2)C(C)(C)C)c2c3c1ccc(c3ccc2)Oc1ccc(cc1)C(C)(C)C",
@@ -18734,7 +18734,7 @@
         "DOI": "10.1016/j.jphotochem.2007.12.034"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 578,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "CCCCCCCCn1c(=O)c2cc(Oc3ccc(cc3)C(C)(C)C)c3c4c2c(c1=O)cc(c4c1c2c3c(Oc3ccc(cc3)C(C)(C)C)cc3c2c(cc1Oc1ccc(cc1)C(C)(C)C)C(=O)OC3=O)Oc1ccc(cc1)C(C)(C)C",
@@ -18745,7 +18745,7 @@
         "DOI": "10.1016/j.jphotochem.2007.12.034"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 602,
         "DONOR": "perylene,anthracene,imidazole",
         "STRUCTURE": "CCCCCCCCn1c(=O)c2cc(Oc3ccc(cc3)C(C)(C)C)c3c4c2c(c1=O)cc(c4c1c2c3c(Oc3ccc(cc3)C(C)(C)C)cc3c2c(cc1Oc1ccc(cc1)C(C)(C)C)c1n(c3=O)c2c(n1)ccc(c2)C(=O)O)Oc1ccc(cc1)C(C)(C)C",
@@ -18756,7 +18756,7 @@
         "DOI": "10.1016/j.jphotochem.2007.12.034"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,catechol,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 626,
         "DONOR": "perylene,anthracene,imidazole",
         "STRUCTURE": "COc1cc2nc3n(c2cc1OC)c(=O)c1c2c3cc(Oc3ccc(cc3)C(C)(C)C)c3c2c(c(c1)Oc1ccc(cc1)C(C)(C)C)c1c2c3c(Oc3ccc(cc3)C(C)(C)C)cc3c2c(cc1Oc1ccc(cc1)C(C)(C)C)C(=O)OC3=O",
@@ -18767,7 +18767,7 @@
         "DOI": "10.1016/j.jphotochem.2007.12.034"
         },
         {
-        "ANCHORING_GROUP": "pyridine,catechol",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 581,
         "DONOR": "perylene,anthracene,imidazole",
         "STRUCTURE": "CCCCCCC(n1c(=O)c2cc(Oc3ccc(cc3)C(C)(C)C)c3c4c2c(c1=O)cc(c4c1c2c3c(Oc3ccc(cc3)C(C)(C)C)cc3c2c(cc1Oc1ccc(cc1)C(C)(C)C)c1n(c3=O)c2c(n1)cc(c(c2)OC)OC)Oc1ccc(cc1)C(C)(C)C)CCCCCC",
@@ -18789,7 +18789,7 @@
         "DOI": "10.1016/j.jphotochem.2007.12.034"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 648,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "CCCCCCCCn1c(=O)c2cc(N3CCCCC3)c3c4ccc5c(=O)oc(=O)c6ccc(c7c(N8CCCCC8)cc(c1=O)c2c37)c4c56",
@@ -18800,7 +18800,7 @@
         "DOI": "10.1016/j.jphotochem.2007.12.034"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 537,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "CCCCCCCCn1c(=O)c2cc(Oc3ccc(cc3)C(C)(C)C)c3c4c2c(c1=O)cc(c4c1c2c3c(Oc3ccc(cc3)C(C)(C)C)cc(c2c(cc1Oc1ccc(cc1)C(C)(C)C)C(=O)O)C(=O)O)Oc1ccc(cc1)C(C)(C)C",
@@ -18888,7 +18888,7 @@
         "DOI": "10.1002/cssc.201902245"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 435,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCC1(CCCCCC)c2cc(ccc2c2c1cc(cc2)N(c1ccccc1)c1ccccc1)c1nc2ncc(cc2nc1c1ccc2c(c1)C(CCCCCC)(CCCCCC)c1c2ccc(c1)N(c1ccccc1)c1ccccc1)c1ccc(cc1)/C=C(/C(=O)O)\\C#N",
@@ -18899,7 +18899,7 @@
         "DOI": "10.1002/cssc.201900505"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 457,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCC1(CCCCCC)c2cc(ccc2c2c1cc(cc2)N(c1ccccc1)c1ccccc1)c1nc2ncc(cc2nc1c1ccc2c(c1)C(CCCCCC)(CCCCCC)c1c2ccc(c1)N(c1ccccc1)c1ccccc1)c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -19867,7 +19867,7 @@
         "DOI": "10.1021/jp301406x"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 558,
         "DONOR": "misc",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1c(c2ccccc2)c(c2n1cccc2)C)/C(=O)O",
@@ -19878,7 +19878,7 @@
         "DOI": "10.1039/C6CC02247B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 605,
         "DONOR": "misc",
         "STRUCTURE": "CCCCCCOc1ccc(c(c1)OCCCCCC)c1ccc(cc1)c1c(CC(CCCC)CC)c2n(c1c1ccc(s1)/C=C(/C(=O)O)\\C#N)ccc(c2)c1ccc(cc1OCCCCCC)OCCCCCC",
@@ -20021,7 +20021,7 @@
         "DOI": "10.1002/asia.201100849"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 481,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OCCCC)c1ccc(cc1)OCCCC)c1sc(cc1CCCCCC)c1ccc2c(c1)cc[n+](c2)CC(=O)O",
@@ -20032,7 +20032,7 @@
         "DOI": "10.1021/am405014f"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 481,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OCCCC)c1ccc(cc1)OCCCC)c1sc(cc1CCCCCC)c1ccc2c(c1)cc[n+](c2)CCC(=O)O",
@@ -20043,7 +20043,7 @@
         "DOI": "10.1021/am405014f"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 479,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc(cc1)N(c1ccc(cc1)OCCCC)c1ccc(cc1)OCCCC)c1sc(cc1CCCCCC)c1ccc2c(c1)cc[n+](c2)CCCC(=O)O",
@@ -21638,7 +21638,7 @@
         "DOI": "10.1002/cssc.201903182"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 534,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "O=C(O)c%10nc(cc(C#Cc9ccc4c1c9(cccc1c5c(Oc2ccc(cc2)C(C)(C)C)cc6C(=O)N(C(=O)c7cc(Oc3ccc(cc3)C(C)(C)C)c4c5c67)c8cc(ccc8C(C)(C)C)C(C)(C)C))c%10)C(=O)O",
@@ -22078,7 +22078,7 @@
         "DOI": "10.1016/j.dyepig.2014.12.006"
         },
         {
-        "ANCHORING_GROUP": "catechol,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 447,
         "DONOR": "porphyrin",
         "STRUCTURE": "CCCCCCOc1c(OC)cc(cc1OC)C1=C2\\C=CC(=N2)\\C(\\C#CC2=CC=C(S2)\\C=C/C(O)=O)=c2\\cc\\c3=C(\\C4=N\\C(\\C=C4)=C(/c4ccc\\1n4[Zn]n23)c1cc2C=Cc3cccc4ccc(c1)c2c34)c1cc(OC)c(OCCCCCC)c(OC)c1",
@@ -22100,7 +22100,7 @@
         "DOI": "10.1039/C5TA01857A"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 447,
         "DONOR": "porphyrin,phenothiazine",
         "STRUCTURE": "CCCCCCCCOc1cccc(OCCCCCCCC)c1\\C1=C2/C=CC(=N2)\\C(\\C#Cc2ccc3N(CCCCCCCC)c4ccccc4Sc3c2)=c2\\cc\\c3=C(\\C4=N\\C(\\C=C4)=C(C#Cc4ccnc(c4)C(O)=O)/c4ccc1n4[Zn]n23)c1c(OCCCCCCCC)cccc1OCCCCCCCC",
@@ -22166,7 +22166,7 @@
         "DOI": "10.1016/j.electacta.2019.02.013"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 495,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -22518,7 +22518,7 @@
         "DOI": "10.1039/c4ta02639j"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 420,
         "DONOR": "phenothiazine",
         "STRUCTURE": "N#C/C(=C/c1ccc2c(c1)Sc1c(N2CCCCCOc2ccccc2OCCCCCN2c3ccccc3Sc3c2ccc(c3)/C=C(/C(=O)O)\\C#N)cccc1)/C(=O)O",
@@ -23420,7 +23420,7 @@
         "DOI": "10.1142/S1088424619500020"
         },
         {
-        "ANCHORING_GROUP": "catechol,sulfonic",
+        "ANCHORING_GROUP": "sulfonic",
         "PEAK_ABSORPTION_SOLUTION": 731,
         "DONOR": "porphyrin",
         "STRUCTURE": "CCCCCCOc1c2C3=N\\C(=N/c4n5[Zn]n6\\c(=N/C7=N/C(=N\\c5c5c(OCCCCCC)c(Oc8ccc(cc8)S(O)(=O)=O)c(Cl)c(OCCCCCC)c45)/c4c7c(OCCCCCC)c(Oc5ccc(cc5)S(O)(=O)=O)c(Cl)c4OCCCCCC)c4c(OCCCCCC)c(Cl)c(Oc5ccc(cc5)S(O)(=O)=O)c(OCCCCCC)c4\\c6=N\\3)\\c2c(OCCCCCC)c(Oc2ccc(cc2)S(O)(=O)=O)c1Cl",
@@ -24223,7 +24223,7 @@
         "DOI": "10.1021/cm9036988"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 426,
         "DONOR": "diphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc(cc1)N(c1ccccn1)c1ccccn1)/c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -24234,7 +24234,7 @@
         "DOI": "10.1039/C7NJ04620K"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 482,
         "DONOR": "diphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)N(c1ccccn1)c1ccccn1)/c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -24245,7 +24245,7 @@
         "DOI": "10.1039/C7NJ04620K"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic,rhodanine",
+        "ANCHORING_GROUP": "carboxylic,rhodanine",
         "PEAK_ABSORPTION_SOLUTION": 468,
         "DONOR": "diphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc(cc1)N(c1ccccn1)c1ccccn1)/c1ccc(s1)/C=C/1\\SC(=S)N(C1=O)CC(=O)O",
@@ -24256,7 +24256,7 @@
         "DOI": "10.1039/C7NJ04620K"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic,rhodanine",
+        "ANCHORING_GROUP": "carboxylic,rhodanine",
         "PEAK_ABSORPTION_SOLUTION": 534,
         "DONOR": "diphenylamine",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)N(c1ccccn1)c1ccccn1)/c1ccc(s1)/C=C/1\\SC(=S)N(C1=O)CC(=O)O",
@@ -24267,7 +24267,7 @@
         "DOI": "10.1039/C7NJ04620K"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 536,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "OC(=O)c1ccc(cc1)C#Cc1ccc2c3c1cccc3c1c3c2c(Oc2ccc(cc2)C(C)(C)C)cc2c3c(cc1Oc1cccc(c1)C(C)(C)C)c(=O)n(c2=O)c1cc(ccc1C(C)(C)C)C(C)(C)C",
@@ -24311,7 +24311,7 @@
         "DOI": "10.1039/C8SC05693E"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 536,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "OC(=O)c1cc(C#Cc2ccc3c4c2cccc4c2c4c3c(Oc3ccc(cc3)C(C)(C)C)cc3c4c(cc2Oc2cccc(c2)C(C)(C)C)c(=O)n(c3=O)c2cc(ccc2C(C)(C)C)C(C)(C)C)cc(n1)C(=O)O",
@@ -24993,7 +24993,7 @@
         "DOI": "10.1039/B815649B"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 536,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "OC(=O)c1ccc(cc1)C#Cc1ccc2c3c1cccc3c1c3c2c(Oc2ccc(cc2)C(C)(C)C)cc2c3c(cc1Oc1ccc(cc1)C(C)(C)C)c(=O)n(c2=O)c1cc(ccc1C(C)(C)C)C(C)(C)C",
@@ -25037,7 +25037,7 @@
         "DOI": "10.1039/C8SC05693E"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 536,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "OC(=O)c1cc(C#Cc2ccc3c4c2cccc4c2c4c3c(Oc3ccc(cc3)C(C)(C)C)cc3c4c(cc2Oc2ccc(cc2)C(C)(C)C)c(=O)n(c3=O)c2cc(ccc2C(C)(C)C)C(C)(C)C)cc(n1)C(=O)O",
@@ -25389,7 +25389,7 @@
         "DOI": "10.3390/molecules24193554"
         },
         {
-        "ANCHORING_GROUP": "catechol,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 450,
         "DONOR": "misc",
         "STRUCTURE": "COc1c(ccc(c1OC)OC)c1sc(c2c1OCCO2)/C=C\\1/SC(=O)N(C1=S)CC(=O)O",
@@ -25477,7 +25477,7 @@
         "DOI": "10.1002/ente.201500431"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 446,
         "DONOR": "misc",
         "STRUCTURE": "N#C/C(=C/c1ccc2c3c1cc(c1ccccc1)c1n3c(c(c2)c2ccccc2)cc1)/C(=O)O",
@@ -25488,7 +25488,7 @@
         "DOI": "10.7567/1347-4065/aaf2d1"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 465,
         "DONOR": "misc",
         "STRUCTURE": "N#C/C(=C/c1ccc2c3c1cc(c1ccc(cc1)C(C)(C)C)c1n3c(c(c2)c2ccc(cc2)C(C)(C)C)cc1)/C(=O)O",
@@ -27369,7 +27369,7 @@
         "DOI": "10.3390/ma9100813"
         },
         {
-        "ANCHORING_GROUP": "benzoic,catechol,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 500,
         "DONOR": "misc",
         "STRUCTURE": "OCC1OC(C(C(C1O)O)O)c1c(O)c2c(c(c1O)O)C(=O)c1c(C2=O)c(C)c(c(c1)O)C(=O)O",
@@ -28117,7 +28117,7 @@
         "DOI": "10.1016/j.dyepig.2015.06.022"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 686,
         "DONOR": "triphenylamine,squaraine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1sc(c2c1OCCO2)C1=C([O-])/C(=C\\c2ccc3c([n+]2C)ccc(c3)/C=C/C(=O)O)/C1=O",
@@ -28128,7 +28128,7 @@
         "DOI": "10.1021/ol302481k"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 673,
         "DONOR": "triphenylamine,squaraine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1sc(c2c1OCCO2)C1=C([O-])/C(=C\\c2ccc3c([n+]2C)ccc(c3)C(=O)O)/C1=O",
@@ -28348,7 +28348,7 @@
         "DOI": "10.1016/j.tet.2013.01.036"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 656,
         "DONOR": "indoline,squaraine",
         "STRUCTURE": "CCCCCCCCN1c2cc(ccc2C(C1=CC1=C([O-])/C(=C\\c2ccc3c([n+]2CC)cccc3)/C1=O)(C)C)C(=O)O",
@@ -28491,7 +28491,7 @@
         "DOI": "10.1039/C7NJ05188C"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 586,
         "DONOR": "indoline",
         "STRUCTURE": "CCCCN1c2ccc(cc2C(C1=CC=CC1=[N+](CCCC)c2c(C1(C)C)c1ccc(cc1cc2)c1nnn(c1)CCn1c(=O)c2cccc3c2c(c1=O)ccc3N1CCOCC1)(C)C)C(=O)O.[I-]",
@@ -28777,7 +28777,7 @@
         "DOI": "10.1039/C7SE00362E"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 742,
         "DONOR": "squaraine",
         "STRUCTURE": "CCCC[N+]1=C(C=C2C([O-])C(C2=O)/C=c\\2/ccn(c3c2cccc3)CCCC)C(c2c1ccc(c2)C(=O)O)(C)C",
@@ -30108,7 +30108,7 @@
         "DOI": "10.1039/C5RA06774J"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 538,
         "DONOR": "misc",
         "STRUCTURE": "CCCCn1c2ccc(cc2c(=O)c2c1cc1c(c2)n(CCCC)c2c(c1=O)cccc2)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -30119,7 +30119,7 @@
         "DOI": "10.5012/bkcs.2011.32.8.2553"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 536,
         "DONOR": "misc",
         "STRUCTURE": "CCCCn1c2ccc(cc2c(=O)c2c1cc1c(c2)n(CCCC)c2c(c1=O)cccc2)c1ccc(cc1)C=C(C(=O)O)C#N",
@@ -30977,7 +30977,7 @@
         "DOI": "10.1021/ol902327p"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 509,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "CCCCCCCCCCCCn1c(=O)c2ccc3c4c2c(c1=O)ccc4c1c2c3ccc3c2c(cc1)C(=O)OC3=O",
@@ -32891,7 +32891,7 @@
         "DOI": "10.1016/j.dyepig.2018.05.044"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 435,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c2cc(sc2c2c(c1OCCCCCC)cc(s2)/C=C(/C(=O)O)\\C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -32902,7 +32902,7 @@
         "DOI": "10.1021/acsami.7b15181"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 456,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c2cc(sc2c2c(c1OCCCCCC)cc(s2)c1ccc(s1)/C=C(/C(=O)O)\\C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -32913,7 +32913,7 @@
         "DOI": "10.1021/acsami.7b15181"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 497,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c2cc(sc2c2c(c1OCCCCCC)cc(s2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1sc2c(c1)C(c1c2sc(c1)/C=C(/C(=O)O)\\C#N)(CCCCCC)CCCCCC",
@@ -32924,7 +32924,7 @@
         "DOI": "10.1021/acsami.7b15181"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 470,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c2cc(sc2c2c(c1OCCCCCC)cc(s2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1cc2c(s1)c1sc(cc1c1c2nn(n1)[C@H](CCCCC)CC)/C=C(\\C(=O)O)/C#N",
@@ -32935,7 +32935,7 @@
         "DOI": "10.1021/acsami.7b15181"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 441,
         "DONOR": "triphenylamine,imidazole",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ccc2c3c1cccc3c1n(c2=O)c2c(n1)cc(cc2)C(=O)O",
@@ -32946,7 +32946,7 @@
         "DOI": "10.1016/j.dyepig.2015.05.028"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 460,
         "DONOR": "triphenylamine,imidazole",
         "STRUCTURE": "OC(=O)c1ccc2c(c1)nc1n2c(=O)c2c3c1cccc3c(cc2)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -33023,7 +33023,7 @@
         "DOI": "10.1016/j.dyepig.2018.08.035"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 579,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCn1c(=O)c2c(c1c1ccc(cn1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)c(=O)n(c2c1ccc(cn1)c1ccc(s1)C=C(C(=O)O)C#N)CCCCCCCC",
@@ -33034,7 +33034,7 @@
         "DOI": "10.1039/C5RA27288B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 564,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCC(Cn1c(c2ccc(cn2)c2ccc(cc2)N(c2ccccc2)c2ccccc2)c2c(c1=O)c(n(c2=O)CC(CCCC)CC)c1ccc(cn1)c1ccc(s1)C=C(C(=O)O)C#N)CC",
@@ -33045,7 +33045,7 @@
         "DOI": "10.1039/C5RA27288B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 588,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCn1c(=O)c2c(c1c1ccc(cn1)c1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)OC)c(=O)n(c2c1ccc(cn1)c1ccc(s1)C=C(C(=O)O)C#N)CCCCCCCC",
@@ -33056,7 +33056,7 @@
         "DOI": "10.1039/C5RA27288B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 580,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCC(Cn1c(c2ccc(cn2)c2ccc(cc2)N(c2ccc(cc2)OC)c2ccc(cc2)OC)c2c(c1=O)c(n(c2=O)CC(CCCC)CC)c1ccc(cn1)c1ccc(s1)C=C(C(=O)O)C#N)CC",
@@ -33067,7 +33067,7 @@
         "DOI": "10.1039/C5RA27288B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 534,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCn1c2cc3c(cc2c(=O)c2c1ccc(c2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)n(CCCCCCCC)c1c(c3=O)cc(cc1)c1ccc(o1)C=C(C(=O)O)C#N",
@@ -33078,7 +33078,7 @@
         "DOI": "10.1039/c2jm31929b"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 540,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCn1c2cc3c(=O)c4cc(ccc4n(c3cc2c(=O)c2c1ccc(c2)C=Cc1ccc(cc1)N(c1ccccc1)c1ccccc1)CCCCCCCC)c1ccc(o1)C=C(C(=O)O)C#N",
@@ -33089,7 +33089,7 @@
         "DOI": "10.1039/c2jm31929b"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 539,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCn1c2cc3c(=O)c4cc(ccc4n(c3cc2c(=O)c2c1ccc(c2)c1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)OC)CCCCCCCC)c1ccc(o1)C=C(C(=O)O)C#N",
@@ -33265,7 +33265,7 @@
         "DOI": "10.1016/j.dyepig.2014.10.007"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 466,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2ccc(s2)/C=C(/C(=O)O)\\C#N)c2c(c1c1ccc(cc1)N(c1ccccc1)c1ccccc1)nsn2",
@@ -33276,7 +33276,7 @@
         "DOI": "10.1039/c2jm30427a"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 454,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2ccc(s2)/C=C(/C(=O)O)\\C#N)c2c(c1c1ccc3c(c1)C(CC)(CC)c1c3ccc(c1)N(c1ccccc1)c1ccccc1)nsn2",
@@ -33287,7 +33287,7 @@
         "DOI": "10.1039/c2jm30427a"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 478,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2ccc(s2)/C=C(/C(=O)O)\\C#N)c2c(c1C#Cc1ccc(cc1)N(c1ccccc1)c1ccccc1)nsn2",
@@ -33298,7 +33298,7 @@
         "DOI": "10.1039/c2jm30427a"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 501,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(OCCCCCC)c(c2ccc(s2)/C=C(/C(=O)O)\\C#N)c2c(c1c1ccc(s1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)nsn2",
@@ -33309,7 +33309,7 @@
         "DOI": "10.1039/c2jm30427a"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 536,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1c(c2ccc(s2)c2ccc(cc2)N(c2ccc(cc2)OC)c2ccc(cc2)OC)c2nsnc2c(c1OCCCCCC)c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -33430,7 +33430,7 @@
         "DOI": "10.1021/jo201730a"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 633,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1cc(ccc1OCCCCCC)c1nc2c(nc1c1ccc(c(c1)OCCCCCC)OCCCCCC)c(sc2c1ccc(s1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -33441,7 +33441,7 @@
         "DOI": "10.1039/C8TA04774J"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 513,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1cc(ccc1OCCCCCC)c1nc2c(nc1c1ccc(c(c1)OCCCCCC)OCCCCCC)c(ccc2c1ccc(s1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -33452,7 +33452,7 @@
         "DOI": "10.1039/C8TA04774J"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 642,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ccc(s1)c1sc(c2c1nc(c1ccc(c(c1)OCCCCCC)OCCCCCC)c(n2)c1ccc(c(c1)OCCCCCC)OCCCCCC)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -33463,7 +33463,7 @@
         "DOI": "10.1039/C8TA04774J"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 532,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ccc(s1)c1ccc(c2c1nc(c1ccc(c(c1)OCCCCCC)OCCCCCC)c(n2)c1ccc(c(c1)OCCCCCC)OCCCCCC)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -33760,7 +33760,7 @@
         "DOI": "10.1039/C3TA15340A"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 493,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCCCOc1cc2c(cc1OCCCCCCCCCC)c1sc(cc1c1c2sc(c1)c1ccc2c(c1)C(CCCC)(CCCC)c1c2ccc(c1)N(c1ccccc1)c1ccccc1)C=C(C(=O)O)C#N",
@@ -33771,7 +33771,7 @@
         "DOI": "10.1039/C3TA12901B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 509,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCCCOc1cc2c(cc1OCCCCCCCCCC)c1sc(cc1c1c2sc(c1)c1ccc2c(c1)C(CCCC)(CCCC)c1c2ccc(c1)N(c1ccccc1)c1ccccc1)c1cc2c(s1)c1ccccc1c1c2cc(s1)C=C(C(=O)O)C#N",
@@ -33782,7 +33782,7 @@
         "DOI": "10.1039/C3TA12901B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 491,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(COc1cc2c3sc(cc3c3c(c2cc1OCC(CCCC)CC)sc(c3)C=C(C(=O)O)C#N)c1ccc2c(c1)c1ccccc1n2CCCC)CC",
@@ -33793,7 +33793,7 @@
         "DOI": "10.1039/C3TA12901B"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 483,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCCCCCCCOc1cc2c3sc(cc3c3c(c2cc1OCCCCCCCCCC)sc(c3)C=C(C(=O)O)C#N)c1ccc2c(c1)c1ccccc1n2CCCCCCCCCC",
@@ -33870,7 +33870,7 @@
         "DOI": "10.1039/C4TA02720E"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 466,
         "DONOR": "bodipy,phenothiazine",
         "STRUCTURE": "CCCCCCN1c2ccc(cc2Sc2c1ccc(c2)C=C(C(=O)O)C#N)c1ccc2[n+](c1)[B-](F)(F)n1c(=C2C#N)cccc1",
@@ -33881,7 +33881,7 @@
         "DOI": "10.1039/C5TA03807C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 466,
         "DONOR": "bodipy,phenothiazine",
         "STRUCTURE": "CCCCCCN1c2ccc(cc2Sc2c1ccc(c2)c1ccc(s1)C=C(C(=O)O)C#N)c1ccc2[n+](c1)[B-](F)(F)n1c(=C2C#N)cccc1",
@@ -33892,7 +33892,7 @@
         "DOI": "10.1039/C5TA03807C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 481,
         "DONOR": "bodipy,phenothiazine",
         "STRUCTURE": "CCCCCCN1c2ccc(cc2Sc2c1ccc(c2)/C=C(\\C(=O)O)/C#N)c1ccc(s1)c1ccc2[n+](c1)[B-](F)(F)n1c(=C2C#N)cccc1",
@@ -33903,7 +33903,7 @@
         "DOI": "10.1039/C5TA03807C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 465,
         "DONOR": "bodipy,phenothiazine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc2[n+](c1)[B-](F)(F)n1c(=C2C#N)cccc1)c1ccc2c(c1)Sc1c(N2CCCCCC)ccc(c1)/C=C(\\C(=O)O)/C#N",
@@ -33914,7 +33914,7 @@
         "DOI": "10.1039/C5TA03807C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 475,
         "DONOR": "bodipy,phenothiazine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc2c(c1)Sc1c(N2CCCCCC)ccc(c1)/C=C(\\C(=O)O)/C#N)c1ccc2[n+](c1)[B-](F)(F)n1c(=C2C#N)cccc1",
@@ -33925,7 +33925,7 @@
         "DOI": "10.1039/C5TA03807C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 460,
         "DONOR": "bodipy,triphenylamine,phenothiazine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc2c(c1)Sc1c(N2c2ccc(cc2)c2ccc3[n+](c2)[B-](F)(F)n2c(=C3C#N)cccc2)ccc(c1)/C=C(\\C(=O)O)/C#N)c1ccc2[n+](c1)[B-](F)(F)n1c(=C2C#N)cccc1",
@@ -33936,7 +33936,7 @@
         "DOI": "10.1039/C5TA03807C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 460,
         "DONOR": "bodipy,triphenylamine,phenothiazine",
         "STRUCTURE": "CCCCCCc1cc(sc1c1ccc2[n+](c1)[B-](F)(F)n1c(=C2C#N)cccc1)c1ccc2c(c1)Sc1c(N2c2ccc(cc2)c2ccc3[n+](c2)[B-](F)(F)n2c(=C3C#N)cccc2)ccc(c1)/C=C(\\C(=O)O)/C#N",
@@ -33947,7 +33947,7 @@
         "DOI": "10.1039/C5TA03807C"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 458,
         "DONOR": "bodipy,triphenylamine,phenothiazine",
         "STRUCTURE": "N#C/C(=C/c1ccc2c(c1)Sc1c(N2c2ccc(cc2)c2ccc3[n+](c2)[B-](F)(F)n2c(=C3C#N)cccc2)cccc1)/C(=O)O",
@@ -34618,7 +34618,7 @@
         "DOI": "10.1039/C9TA00472F"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 443,
         "DONOR": "phenothiazine",
         "STRUCTURE": "CCCCCCN1c2ccc(cc2Sc2c1ccc(c2)c1cccc(c1OC)OC)c1ccc(s1)/C=C(/C(=O)O)\\C#N",
@@ -35212,7 +35212,7 @@
         "DOI": "10.1039/C6DT02469F"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 583,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCC(C[Ge]1(CC(CCCC)CC)c2cc(sc2c2c1cc(s2)c1cnc(c2c1nsn2)c1ccc(s1)C(=O)O)c1ccc(cc1)N(c1ccccc1)c1ccccc1)CC",
@@ -35223,7 +35223,7 @@
         "DOI": "10.1039/C6DT02469F"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 609,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCC(C[Ge]1(CC(CCCC)CC)c2cc(sc2c2c1cc(s2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1cnc(c2c1nsn2)c1ccc(s1)/C=C(\\C(=O)O)/C#N)CC",
@@ -35476,7 +35476,7 @@
         "DOI": "10.1039/c3ra43057j"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 522,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(o1)c1ncc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35487,7 +35487,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 548,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(s1)c1ncc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35498,7 +35498,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 498,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1ncc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35509,7 +35509,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 526,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1ncc(c2c1nsn2)c1ccc(s1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35520,7 +35520,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 536,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(o1)c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35531,7 +35531,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 546,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(s1)c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35542,7 +35542,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 497,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1cnc(c2c1nsn2)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35553,7 +35553,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 518,
         "DONOR": "triphenylamine",
         "STRUCTURE": "N#CC(=Cc1ccc(cc1)c1cnc(c2c1nsn2)c1ccc(s1)c1ccc(cc1)N(c1ccccc1)c1ccccc1)C(=O)O",
@@ -35564,7 +35564,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 525,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ncc(c2c1nsn2)c1ccc(cc1)C=C(C(=O)O)C#N",
@@ -35575,7 +35575,7 @@
         "DOI": "10.1016/j.orgel.2013.11.031"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 580,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)c1ccc(s1)c1ncc(c2c1nsn2)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -35674,7 +35674,7 @@
         "DOI": "10.5012/bkcs.2013.34.5.1533"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 464,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(COc1c2c3sc(cc3sc2c2c(c1OCC(CCCC)CC)c1sc(cc1s2)/C=C(\\C(=O)O)/C#N)c1ccc2c(c1)c1ccccc1n2CC(CCCC)CC)CC",
@@ -35685,7 +35685,7 @@
         "DOI": "10.1016/j.orgel.2016.12.044"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 478,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCC(COc1c2c3sc(cc3sc2c2c(c1OCC(CCCC)CC)c1sc(cc1s2)/C=C(\\C(=O)O)/C#N)c1ccc(cc1)N(c1ccc(cc1)OCCCCCCCC)c1ccc(cc1)OCCCCCCCC)CC",
@@ -35696,7 +35696,7 @@
         "DOI": "10.1016/j.orgel.2016.12.044"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 494,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(COc1c2c3sc(cc3sc2c2c(c1OCC(CCCC)CC)c1sc(cc1s2)/C=C(\\C(=O)O)/C#N)c1ccc(c2c1nsn2)c1ccc2c(c1)c1ccccc1n2CC(CCCC)CC)CC",
@@ -35707,7 +35707,7 @@
         "DOI": "10.1016/j.orgel.2016.12.044"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 481,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(COc1c2c3sc(cc3sc2c2c(c1OCC(CCCC)CC)c1sc(cc1s2)/C=C(\\C(=O)O)/C#N)c1ccc(c2c1nc(c1csc(c1)C)c(n2)c1ccc(s1)C)c1ccc2c(c1)c1ccccc1n2CC(CCCC)CC)CC",
@@ -35718,7 +35718,7 @@
         "DOI": "10.1016/j.orgel.2016.12.044"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 467,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(COc1c2c3sc(cc3sc2c2c(c1OCC(CCCC)CC)c1sc(cc1s2)/C=C(\\C(=O)O)/C#N)c1ccc2c(c1)n(CC(CCCC)CC)c1c2cc(cc1)c1sc2c(c1)sc1c2c(OCC(CCCC)CC)c(OCC(CCCC)CC)c2c1sc1c2sc(c1)/C=C(\\C(=O)O)/C#N)CC",
@@ -35828,7 +35828,7 @@
         "DOI": "10.1016/j.dyepig.2011.01.009"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 453,
         "DONOR": "misc",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1ccc2c(c1)c1ccccc1n1c2cc2c1cc(cc2)C)/C(=O)O",
@@ -35839,7 +35839,7 @@
         "DOI": "10.1016/j.tet.2009.04.077"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 411,
         "DONOR": "misc",
         "STRUCTURE": "N#C/C(=C\\c1ccc(s1)c1ccc(s1)c1ccc2c(c1)c1ccccc1n1c2cc2c1cc(cc2)C)/C(=O)O",
@@ -36004,7 +36004,7 @@
         "DOI": "10.1039/c5ra21917e"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 471,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1cc2c3cc(sc3c3c(c2cc1OCCCCCCCC)cc(s3)C=C(C(=O)O)C#N)c1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)OC",
@@ -36015,7 +36015,7 @@
         "DOI": "10.1039/c3cc44258f"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 495,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1cc2c3cc(sc3c3c(c2cc1OCCCCCCCC)cc(s3)C=C(C(=O)O)C#N)c1sc(c2c1OCCO2)c1ccc(cc1)N(c1ccc(cc1)OC)c1ccc(cc1)OC",
@@ -37764,7 +37764,7 @@
         "DOI": "10.1021/jp101945z"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 486,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(COc1cc2c3c4sc(cc4sc3c3c(c2cc1OCC(CCCC)CC)c1sc(cc1s3)/C=C(/C(=O)O)\\C#N)c1ccc2c(c1)c1ccccc1n2CC(CCCC)CC)CC",
@@ -37775,7 +37775,7 @@
         "DOI": "10.1021/acsami.5b07591"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 498,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCCCC)c1ccc(cc1)c1cc2c(s1)c1c(s2)c2sc3c(c2c2c1cc(OCC(CCCC)CC)c(c2)OCC(CCCC)CC)sc(c3)/C=C(/C(=O)O)\\C#N",
@@ -37786,7 +37786,7 @@
         "DOI": "10.1021/acsami.5b07591"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 513,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCC(COc1cc2c3c4sc(cc4sc3c3c(c2cc1OCC(CCCC)CC)c1sc(cc1s3)/C=C(/C(=O)O)\\C#N)c1ccc(c2c1nsn2)c1ccc2c(c1)c1ccccc1n2CC(CCCC)CC)CC",
@@ -37797,7 +37797,7 @@
         "DOI": "10.1021/acsami.5b07591"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 531,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCCCOc1ccc(cc1)N(c1ccc(cc1)OCCCCCCCC)c1ccc(cc1)c1ccc(c2c1nsn2)c1cc2c(s1)c1c(s2)c2sc3c(c2c2c1cc(OCC(CCCC)CC)c(c2)OCC(CCCC)CC)sc(c3)/C=C(/C(=O)O)\\C#N",
@@ -38138,7 +38138,7 @@
         "DOI": "10.1002/ejoc.200900983"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 560,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCC[n+]1ccc(cc1)c1oc2c(n1)c1n(CCCC(=O)O)c3c(c1c1c2oc2c1ccc(c2)N(CCCC)CCCC)cccc3.[I-]",
@@ -38149,7 +38149,7 @@
         "DOI": "10.1002/ejoc.200900983"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 425,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCN(c1ccc2c(c1)oc1c2c2c(c3c1oc(n3)c1ccnc(c1)c1nccc(c1)C(=O)O)[nH]c1c2cccc1)CCCC",
@@ -38193,7 +38193,7 @@
         "DOI": "10.1039/C4NJ00373J"
         },
         {
-        "ANCHORING_GROUP": "benzoic,catechol,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 431,
         "DONOR": "porphyrin",
         "STRUCTURE": "COc1cc(cc(c1OC)OC)/C/1=C/2\\C=CC(=N2)/C(=c\\2/cc/c(=C(/C3=N/C(=C(\\c4sc1cc4)/c1cc(OC)c(c(c1)OC)OC)/C=C3)\\c1ccc(cc1)C(=O)O)/[nH]2)/c1ccc(cc1)C(=O)O",
@@ -38699,7 +38699,7 @@
         "DOI": "10.1039/C7CP08038G"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 464,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCn1nc2c(n1)c(cnc2c1ccc(o1)C=C(C(=O)O)C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -38710,7 +38710,7 @@
         "DOI": "10.1021/acsami.5b07205"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 472,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCn1nc2c(n1)c(cnc2c1ccc(s1)C=C(C(=O)O)C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -38721,7 +38721,7 @@
         "DOI": "10.1021/acsami.5b07205"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 476,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCn1nc2c(n1)c(cnc2c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(o1)C=C(C(=O)O)C#N",
@@ -38732,7 +38732,7 @@
         "DOI": "10.1021/acsami.5b07205"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 482,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCn1nc2c(n1)c(cnc2c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -38743,7 +38743,7 @@
         "DOI": "10.1021/acsami.5b07205"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 440,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCn1nc2c(n1)c(ncc2c1ccc(cc1)C=C(C(=O)O)C#N)c1ccc(cc1)N(c1ccccc1)c1ccccc1",
@@ -38754,7 +38754,7 @@
         "DOI": "10.1021/acsami.5b07205"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 490,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCn1nc2c(n1)c(cnc2c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC)c1ccc(o1)C=C(C(=O)O)C#N",
@@ -38765,7 +38765,7 @@
         "DOI": "10.1021/acsami.5b07205"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 486,
         "DONOR": "triphenylamine",
         "STRUCTURE": "CCCCCCn1nc2c(n1)c(cnc2c1ccc(cc1)N(c1ccccc1)c1ccccc1)c1cc(c(s1)C=C(C(=O)O)C#N)CCCCCC",
@@ -40151,7 +40151,7 @@
         "DOI": "10.1039/c6nj00634e"
         },
         {
-        "ANCHORING_GROUP": "benzoic,catechol,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 428,
         "DONOR": "porphyrin",
         "STRUCTURE": "CCCCCCCCCCCCOc1cc(ccc1OCCCCCCCCCCCC)/C/1=C/2\\C=CC(=N2)/C(=c/2\\n3[Zn]n4c1ccc4/C(=C\\1/CCC(/C(=c\\3/cc2)/c2ccc(cc2)C(=O)O)N1)/c1ccc(c(c1)OCCCCCCCCCCCC)OCCCCCCCCCCCC)/c1ccc(c(c1)OCCCCCCCCCCCC)OCCCCCCCCCCCC",
@@ -41427,7 +41427,7 @@
         "DOI": "10.1021/jp412731z"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,catechol,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 484,
         "DONOR": "carbazole",
         "STRUCTURE": "CCCCCCc1cc(sc1c1cc(c(s1)c1cc(c(s1)C=C(C(=O)O)C#N)CCCCCC)CCCCCC)c1ccc2c(c1)c1cc3OCCOCCOCCOc3cc1n2CC",
@@ -41823,7 +41823,7 @@
         "DOI": "10.1016/j.saa.2015.04.074"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 416,
         "DONOR": "triphenylamine,imidazole",
         "STRUCTURE": "CCCc1nc2c(n1C)c(cnc2c1ccc(s1)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC)c1ccc(s1)C=C(C(=O)O)C#N",
@@ -41834,7 +41834,7 @@
         "DOI": "10.1002/asia.201700039"
         },
         {
-        "ANCHORING_GROUP": "cyanoacrylic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 437,
         "DONOR": "triphenylamine,imidazole",
         "STRUCTURE": "CCCc1nc2c(n1C)c(ncc2c1ccc(s1)C=C(C(=O)O)C#N)c1ccc(s1)c1ccc(cc1)N(c1ccc(cc1)OCCCCCC)c1ccc(cc1)OCCCCCC",
@@ -42087,7 +42087,7 @@
         "DOI": "10.1021/jp310425z"
         },
         {
-        "ANCHORING_GROUP": "benzoic,pyridine,carboxylic",
+        "ANCHORING_GROUP": "benzoic,carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 523,
         "DONOR": "perylene,anthracene",
         "STRUCTURE": "O=C1OC(=O)c2c3c1ccc1c3c(cc2)c2c3c1ccc1c3c(cc2)c(=O)n(c1=O)c1c(cccc1C(C)C)C(C)C",
@@ -42648,7 +42648,7 @@
         "DOI": "10.1021/acsami.6b04411"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 525,
         "DONOR": "ruthenium",
         "STRUCTURE": "O=C(O)c1ccn3c(c1)c2cc(ccn2[Ru]35(N=C=S)(N=C=S)(n6ccc(cc6(c4cc(ccn45)C(=O)O))C(=O)O))C(=O)O",
@@ -42857,7 +42857,7 @@
         "DOI": "10.1021/ic101909e"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 543,
         "DONOR": "ruthenium",
         "STRUCTURE": "O=C(O)c1ccn8c(c1)c2cc(ccn2[Ru]68(N=C=S)(N=C=S)(n7ccc(C=Cc3cccc(OC)c3)cc7(c5cc(C=Cc4cccc(OC)c4)ccn56)))C(=O)O",
@@ -43528,7 +43528,7 @@
         "DOI": "10.1016/j.solener.2011.07.010"
         },
         {
-        "ANCHORING_GROUP": "pyridine,carboxylic",
+        "ANCHORING_GROUP": "carboxylic",
         "PEAK_ABSORPTION_SOLUTION": 539,
         "DONOR": "ruthenium",
         "STRUCTURE": "O=C(O)c1ccn3c(c1)c2cc(ccn2[Ru]35(N=C=S)(N=C=S)(n6ccc(cc6(c4cc(ccn45)C(=O)O))C(=O)O))C(=O)O",
