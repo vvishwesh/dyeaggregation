@@ -44439,6 +44439,39 @@
         "SOLVENT": "dichloromethane",
         "AGGREGATION": "HYPSOCHROMIC",
         "DOI": "10.3390/molecules25102349"
+        },
+        {
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 397,
+        "DONOR": "carbazole",
+        "STRUCTURE": "C(=O)(O)/C(=C/C=1C=C2C=3C=C(C=CC3N(C2=CC1)CCCCC)/C=C(\\C#N)/C1=CC=C(S1)\\C=C(/C(=O)O)\\C#N)/C#N",
+        "PEAK_ABSORPTION_METAL_OXIDE": 352,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dimethylformamide",
+        "AGGREGATION": "HYPSOCHROMIC",
+        "DOI": "10.1016/j.jphotochem.2020.112521"
+        },
+        {
+        "ANCHORING_GROUP": "carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 426,
+        "DONOR": "carbazole",
+        "STRUCTURE": "C(=O)(O)C1=CC=C(C=C1)\\N=C/C=1C=C2C=3C=C(C=CC3N(C2=CC1)CCCCC)/C=C(\\C#N)/C1=CC=C(S1)\\C=N\\C1=CC=C(C(=O)O)C=C1",
+        "PEAK_ABSORPTION_METAL_OXIDE": 424,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dimethylformamide",
+        "AGGREGATION": "UNCHANGED",
+        "DOI": "10.1016/j.jphotochem.2020.112521"
+        },
+        {
+        "ANCHORING_GROUP": "carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 392,
+        "DONOR": "carbazole",
+        "STRUCTURE": "C(=O)(O)/C=C/C=1C=C2C=3C=C(C=CC3N(C2=CC1)CCCCC)/C=C(\\C#N)/C1=CC=C(S1)/C=C/C(=O)O",
+        "PEAK_ABSORPTION_METAL_OXIDE": 364,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dimethylformamide",
+        "AGGREGATION": "HYPSOCHROMIC",
+        "DOI": "10.1016/j.jphotochem.2020.112521"
         }
     ]
 }
