@@ -44384,6 +44384,61 @@
         "SOLVENT": "dimethylformamide",
         "AGGREGATION": "UNCHANGED",
         "DOI": "10.1080/15421406.2011.564102"
+        },
+        {
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 576,
+        "DONOR": "phenothiazine",
+        "STRUCTURE": "CCCCCCCCN1c2ccc(cc2Sc2c1ccc(c2)/C=C(/C(=O)O)\\C#N)c1ccc(s1)C1=C2C(=C(N(C2=O)CC(CCCC)CC)c2cccs2)C(=O)N1CC(CCCC)CC",
+        "PEAK_ABSORPTION_METAL_OXIDE": 565,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dichloromethane",
+        "AGGREGATION": "HYPSOCHROMIC",
+        "DOI": "10.3390/molecules25102349"
+        },
+        {
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 604,
+        "DONOR": "phenothiazine",
+        "STRUCTURE": "CCCCCCCCN1c2ccc(cc2Sc2c1ccc(c2)/C=C(/C(=O)O)\\C#N)c1ccc(s1)C1=C2C(=C(N(C2=O)CC(CCCC)CC)c2ccc(s2)c2ccc3c(c2)Sc2c(N3CCCCCC)cccc2)C(=O)N1CC(CCCC)CC",
+        "PEAK_ABSORPTION_METAL_OXIDE": 599,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dichloromethane",
+        "AGGREGATION": "UNCHANGED",
+        "DOI": "10.3390/molecules25102349"
+        },
+        {
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 604,
+        "DONOR": "phenothiazine",
+        "STRUCTURE": "CCCCC(CN1C(=C2C(=C(N(C2=O)CC(CCCC)CC)c2ccc(s2)c2ccc(cc2)/C=C(/C(=O)O)\\C#N)C1=O)c1ccc(s1)c1ccc2c(c1)Sc1c(N2CCCCCC)cccc1)CC",
+        "PEAK_ABSORPTION_METAL_OXIDE": 578,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dichloromethane",
+        "AGGREGATION": "HYPSOCHROMIC",
+        "DOI": "10.3390/molecules25102349"
+        },
+        {
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 606,
+        "DONOR": "triphenylamine,phenothiazine",
+        "STRUCTURE": "CCCCC(CN1C(=O)C2=C(c3ccc(s3)c3ccc(cc3)/C=C(/C(=O)O)\\C#N)N(C(=O)C2=C1c1ccc(s1)c1ccc(cc1)N(c1ccc(cc1)c1ccc(cc1)CCCC)c1ccc(cc1)c1ccc(cc1)CCCC)CC(CCCC)CC)CC",
+        "PEAK_ABSORPTION_METAL_OXIDE": 595,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dichloromethane",
+        "AGGREGATION": "HYPSOCHROMIC",
+        "DOI": "10.3390/molecules25102349"
+        },
+        {
+        "ANCHORING_GROUP": "cyanoacrylic,carboxylic",
+        "PEAK_ABSORPTION_SOLUTION": 608,
+        "DONOR": "triphenylamine,phenothiazine",
+        "STRUCTURE": "CCCCCCCCN1c2ccc(cc2Sc2c1ccc(c2)/C=C(/C(=O)O)\\C#N)c1ccc(s1)C1=C2C(=C(N(C2=O)CC(CCCC)CC)c2ccc(s2)c2ccc(cc2)N(c2ccc(cc2)c2ccc(cc2)CCCC)c2ccc(cc2)c2ccc(cc2)CCCC)C(=O)N1CC(CCCC)CC",
+        "PEAK_ABSORPTION_METAL_OXIDE": 597,
+        "METAL_OXIDE": "TiO2",
+        "SOLVENT": "dichloromethane",
+        "AGGREGATION": "HYPSOCHROMIC",
+        "DOI": "10.3390/molecules25102349"
         }
     ]
 }
